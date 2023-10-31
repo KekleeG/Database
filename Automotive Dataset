@@ -1,3 +1,79 @@
+   --      ENTERPRISE MODEL     --
+
+    |------------|
+    | car model  |
+    |------------|
+         |
+         |
+         |
+         |
+   |------------|
+   | car make   |
+   |------------|
+        |
+        |
+        |
+   |------------|         |----------|
+   |  sponsor   |         | location |
+   |------------|         |----------|
+         |                      |
+         |------------|         |
+                      |         |
+   |------------|     |----|----------|          |-----------|
+   | location   |----------| promoter |----------|  vendor   |
+   |------------|          |----------|          |-----------|
+                                 |
+                                 |
+                                 |
+                          |------------|        |----------|
+                          | car club   |--------| bookings |
+                          |------------|        |----------|
+
+
+
+        --  ENTITY RELATIONAL MODEL  --
+
+
+          CarModel_T               Vendor_T                            CarMake_T
+     |PK| ModelID               | PK |VendorID                      |PK | MakeID
+          model color                 vendor name                         make year
+          model type                  vendor email                        make name
+          model year                  vendor address                      top speed
+          body style                  vendor work phone                   gear type
+          engine type                 vendor postal code                  fuel grade
+          model name                  LocationID                          modelID
+          makeID
+
+
+           Sponsor_T                     Location_T                         Promoter_T
+         |PK| MakeID                  |PK | LocationID                   |PK| PromoterID       
+           sponsor name                     location name                     promoter name
+           sponsor email                    location address                  promoter email
+           sponsor address                  location zip code                 promoter address
+           sponsor work                     location lot space                promoter zipcode
+           phone                            location phonenumber              promoter gender
+           sponsor zipcode                  PromoterID                        SponsorID
+           PromoterID
+
+
+               CarClub_T                                  Booking_T
+         |PK|   clubID                                |PK| LocationID
+                ModelID                                    PromoterID
+                car club size                              ClubID
+                car club city
+                car club social media
+                car club state
+                car club email
+                car club name ModelID
+
+
+
+
+
+
+
+
+--SQL DATABASE CODE --
 
 
 
