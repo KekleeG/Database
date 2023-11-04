@@ -41,25 +41,25 @@
           model year                  vendor address                      top speed
           body style                  vendor work phone                   gear type
           engine type                 vendor postal code                  fuel grade
-          model name                  LocationID                          modelID
-          makeID
+          model name            |FK|  LocationID                    |FK|  modelID
+      |FK|makeID
 
 
            Sponsor_T                     Location_T                         Promoter_T
-         |PK| MakeID                  |PK | LocationID                   |PK| PromoterID       
-           sponsor name                     location name                     promoter name
-           sponsor email                    location address                  promoter email
-           sponsor address                  location zip code                 promoter address
-           sponsor work                     location lot space                promoter zipcode
-           phone                            location phonenumber              promoter gender
-           sponsor zipcode                  PromoterID                        SponsorID
-           PromoterID
+       |PK|MakeID                  |PK | LocationID                   |PK| PromoterID       
+           sponsor name                  location name                     promoter name
+           sponsor email                 location address                  promoter email
+           sponsor address               location zip code                 promoter address
+           sponsor work                  location lot space                promoter zipcode
+           phone                         location phonenumber              promoter gender
+           sponsor zipcode          |FK| PromoterID                   |FK| SponsorID
+       |FK|PromoterID
 
 
                CarClub_T                                  Booking_T
-         |PK|   clubID                                |PK| LocationID
-                ModelID                                    PromoterID
-                car club size                              ClubID
+          |PK|  clubID                                |PK| LocationID
+          |FK|  ModelID                               |FK| PromoterID
+                car club size                         |FK| ClubID
                 car club city
                 car club social media
                 car club state
