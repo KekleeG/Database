@@ -136,7 +136,7 @@ FOREIGN KEY  (ResId) REFERENCES residentowner(ResId)
   INSERT INTO residentowner VALUES
   (38321, 'Scott',       'Duckett',     6438042530, 5032412866,    'sduckett0@harvard.edu',     '1983-01-10',   'Gambia',        'Banjul',     'Male',   'G38321',   '@dortqueirs1'),
   (32014, 'Misti',       'Lacelett',    3237873622, 4228393226,    'mlacelett1@blogspot.com',   '1972-10-12',   'Brazzaville',   'Congo',      'Female', 'Misti',    '@dropecar1304!'),
-  (30161, 'Kathleen',    'Coughan',     9979606668, 3505496348,    'kcoughan2@bigcartel.com',   '1983-12-24',   'Liberia',       'Monrovia',   'Female', 'Kathleen', '@letsgotr3'),
+  (30161, 'Kathleen',    'Coughan',     9979606668, 3505496348,    'kcoughan2@bigcartel.com',   '1983-12-24',   'Monrovia',      'Liberia',   'Female', 'Kathleen', '@letsgotr3'),
   (07024, 'Aubine',      'Imason',      7633309884, 7273420758,    'aimason3@google.com',       '1990-01-19',   'Guinea',        'Conakry',    'Female', 'Imason',   'THREEQ11'),
   (50746, 'Swen',        'Outram',       9821203406, 5107730342,   'soutram4@tumblr.com',      '1972-12-01',    'South Africa', 'Cape Town',   'Male',   'Swen',     'ewens123'),
   (21243, 'Karlis',      'Thornebarrow', 3197500170, 4578175942,   'kthornebarrow5@go.com',    '1983-10-20',    'Sierra Leone', 'Freetown',    'Male',   'Karlis',   'kgragopuraal'),
@@ -151,20 +151,20 @@ FOREIGN KEY  (ResId) REFERENCES residentowner(ResId)
 (83040, 'Pip',          'Dahmel',       2898914415, 9238872868,   'pdahmele@list-manage.com',  '1990-07-29',    'Monrovia',     'Liberia',     'Male' ,  'PipDahmel',  'Pip!lEtatter'),
 (97474, 'Tersina',      'Porkiss',      6418578523, 2061439406,   'tporkissf@gmail.com',       '1983-09-09',    'Nigeria',      'Abuja',       'Female', 'Tersina',    '123!Terinsa'),
 (29951, 'Veradis',      'Enns',         8988003918, 7565685293,   'vennsg@lulu.com',           '1979-10-13',    'Congo',        'Brazzaville', 'Female', 'Veradis299', 'Vera563r4f!'),
-(33953, 'Terry',        'Robjents',     5132908585, 5583848492,  'trobjentsh@aol.com',        '1983-05-04',     'Liberia',     'Monrovia',    'Female',  '33953',      '33953lIbaol'),
+(33953, 'Terry',        'Robjents',     5132908585, 5583848492,  'trobjentsh@aol.com',        '1983-05-04',     'Monrovia',      'Liberia',    'Female',  '33953',      '33953lIbaol'),
 (14806, 'Normie',       'Mangeon',      2281464826, 2615849962,  'nmangeoni@yahoo.com',       '1979-02-07',     'Tanzania',    'Dodoma',      'Male',    '14806',      'Dodomaboy4'),
 (54535, 'Papageno',     'Lambart',      9177706783, 1031215689,  'plambartj@rambler.ru',      '1983-03-10',     'Guinea',      'Conakry',     'Male',    'Papageno',   'Congoman4'),
 (36928, 'Adore',        'Brash',        3325129405, 3286552361,  'abrashk@shutterfly.com',    '1990-07-31',     'Gambia',      'Banjul',      'Female',  'AdoreBrash', 'Brash21'),
 (75405, 'Sharona',      'McGillecole',  5871531665, 2653712987,  'smcgl@gmail.com',           '1979-04-16',     'Madagascar',  'Antananarivo','Female',  'McGillecole','Mcgill875'),
 (93705, 'Edgardo',      'Franzen',      8519205140, 7164585249,  'efranzenm@ibm.com',         '1983-10-28',     'Congo',       'Brazzaville', 'Male',    '93705',      'Franzen01'),
-(15123, 'Richart',      'Redhouse',     3429080003, 5376887020,  'rredhouse0@ibm.com',        '1990-12-02',     'Liberia',     'Monrovia' ,   'Male',    'Richart',    'Ric@rt$1');
+(15123, 'Richart',      'Redhouse',     3429080003, 5376887020,  'rredhouse0@ibm.com',        '1990-12-02',     'Monrovia',      'Liberia' ,   'Male',    'Richart',    'Ric@rt$1');
 
 
 
 INSERT INTO residentowner VALUES
 (13492, 'Clarette',     'Jolliff',      2117055594, 1775332811,  'cjolliff1@gmpg.org',        '1987-01-06',     'Congo',       'Brazzaville', 'Female', 'Clarette',   'Clarbest$1'),
 (55740, 'Augustin',     'Brookbank',    3455729935, 1209378357,  'abrookbank2@gmail.com',     '1986-10-10',     'Tanzania',    'Dodoma',      'Male',   'Augustin',   'AugUsT212'),
-(44550, 'Silvain',      'Haquard',      7127169250, 3094550899,  'shaquard3@hows.com',        '1996-12-19',     'Liberia',     'Monrovia',    'Male',   'Haquard001', 'Haqu809'),
+(44550, 'Silvain',      'Haquard',      7127169250, 3094550899,  'shaquard3@hows.com',        '1996-12-19',     'Monrovia',      'Liberia',    'Male',   'Haquard001', 'Haqu809'),
 (65459, 'Marleah',      'Trammel',      7731332085, 5646719380,  'mtmel4@examiner.com',       '1993-01-08',     'Rwanda',       'Kigali',     'Female', '50340Rw',    '504letsgo!'),
 (50340, 'Hendrika',     'Gonzalez',     4243990919, 7749999111,  'hgoez5@nature.com',         '1987-08-07',     'Rwanda',       'Kigali',      'Female','Hendrika001','HenDrek1'),
 (46313, 'Daffie',       'Hoy',          3617560871, 7317361295,  'dhoy6@imdb.com',            '1990-05-11',     'Monrovia',     'Liberia',     'Male',  'DaffieHoy',  'Daffiee88'),
@@ -178,8 +178,8 @@ INSERT INTO residentowner VALUES
 (00499, 'Ermina',       'Hurich',       1981953123, 8309008112,  'ehurichc@yahoo.com',        '1995-01-27',    'Gambia',       'Banjul',     'Female',  'Ermina',     'JAcket3'),
 (20000, 'Anastasie',    'Amery',        1806063297, 9812443363,  'aameryd@aol.com',           '1993-01-28',    'Rwanda',       'Kigali',     'Female',  '20000',      'StorePassse2'),
 (21156, 'Alexandr',     'Crowcroft',    9232839377, 9979412632,  'acrowc@aol.com',            '1995-11-14',    'Congo',       'Brazzaville', 'Female',  'Alexandr',   'Alex2023'),
-(42000, 'North',        'MacShirie',    1811238320, 4943219177,  'nmacshirief@gmail.com',     '1995-09-13',    'Liberia',     'Monrovia',    'Male',    '42000',      'askmetyou4'),
-(90311, 'Shari',        'Drennan',      6567168380, 4313364785,  'sdre@gmail.com',            '1992-06-08',    'Liberia',     'Monrovia',    'Male',    '90311',      'wetyddh2'),
+(42000, 'North',        'MacShirie',    1811238320, 4943219177,  'nmacshirief@gmail.com',     '1995-09-13',    'Monrovia',      'Liberia',    'Male',    '42000',      'askmetyou4'),
+(90311, 'Shari',        'Drennan',      6567168380, 4313364785,  'sdre@gmail.com',            '1992-06-08',    'Monrovia',      'Liberia',    'Male',    '90311',      'wetyddh2'),
 (24566, 'Brigitte',     'Ealam',        7987980157, 6546470860,  'bealamh@aol.com',           '1993-11-23',    'Congo',       'Brazzaville', 'Male',    'Brigitte',   '87hotnoy!'),
 (41509, 'Oralee',       'Zecchi',       8645260161, 6672329263,  'ozecchii@woot.com',         '1995-06-29',    'Tanzania',     'Dodoma',      'Male',   '41509',      'fromtree22'),
 (41267, 'Hernando',     'Cafferty',     8796831119, 6925651776,  'hcafftyj@yahoo.com',        '1993-06-17',    'Tanzania',     'Dodoma',      'Male',   'Hernando',   'mixpassyea'),
@@ -194,7 +194,7 @@ INSERT INTO residentowner VALUES
 (2800, 'Gerrilee',      'Tate',        2542511228, 8044527667,   'gtatep@wgmail.com',        '2023-07-12',     'Tanzania',     'Dodoma',      'Male',   'Gerrilee2',  'hGerr11'),
 (3041, 'Kerby',         'Mussington',  9819588828, 6244660986,   'kmngtonq@aol.com',         '2023-08-16',     'Gambia',       'Banjul',      'Female', 'Mussington1','Letsgrew1'),
 (4347, 'Felicia',       'Beveredge',   1894090074, 2487801239,   'fbev@cgmail.com',          '2023-09-25',     'Sierra Leone', 'Freetown',    'Male',   'Beveredge',  'ieaTre1'),
-(6077, 'Obie',          'Jeanet',      3864073294, 4599724131,   'ojeanets@gmsil.com',       '2023-03-24',     'Liberia',     'Monrovia',     'Female', 'Jeanet',     'Jean33'),
+(6077, 'Obie',          'Jeanet',      3864073294, 4599724131,   'ojeanets@gmsil.com',       '2023-03-24',     'Monrovia',      'Liberia',     'Female', 'Jeanet',     'Jean33'),
 (1025, 'Dorie',         'Poleye',      9794178130, 7145983524,   'dpoleyet@hhs.gov',         '2023-05-16',     'Congo',       'Brazzaville',  'Female', '1025',       '1025J'),
 (1700, 'Mike',          'Gobeaux',     4501670706, 9043295857,   'mgobeauxu@aol.com',        '2023-11-01',     'Congo',       'Brazzaville',  'Male',   'Gobeaux',    'g063@'),
 (5002, 'Ingelbert',     'Tyrone',      4959266342, 7262196007,   'ityronev@gmail.com',       '2023-07-28',    'Tanzania',     'Dodoma',       'Male',   'Ingelbert',  'artingelber'),
@@ -715,16 +715,16 @@ mysql> select * from  residentowner ;
 +-------+-----------+--------------+------------------------+-------------+--------------------------+------------+--------------+--------------+--------+-------------+------------------+
 |   499 | Ermina    | Hurich       |             1981953123 |  8309008112 | ehurichc@yahoo.com       | 1995-01-27 | Gambia       | Banjul       | Female | Ermina      | JAcket3          |
 |  1025 | Dorie     | Poleye       |             9794178130 |  7145983524 | dpoleyet@hhs.gov         | 2023-05-16 | Congo        | Brazzaville  | Female | 1025        | 1025J            |
-|  1198 | Erin      | Isaacson     |             2693682664 |  4291303448 | eisaacson10@google.cn    | 2022-12-23 | Monrovia     | Liberia      | Male   | Isaacson    | grabI2!          |
-|  1265 | Penny     | Vezey        |             6906923418 |  5245457622 | pvezey11@nyu.edu         | 2023-10-13 | Monrovia     | Liberia      | Male   | 1265        | GREEWQR          |
-|  1464 | Graehme   | Maylard      |             8381663365 |  9333666436 | gmaylard13@gmail.com     | 2023-07-26 | Monrovia     | Liberia      | Male   | Graehme     | treq24@          |
+|  1198 | Erin      | Isaacson     |             2693682664 |  4291303448 | eisaacson10@google.cn    | 2022-12-23 | Liberia      | Monrovia     | Male   | Isaacson    | grabI2!          |
+|  1265 | Penny     | Vezey        |             6906923418 |  5245457622 | pvezey11@nyu.edu         | 2023-10-13 | Liberia      | Monrovia     | Male   | 1265        | GREEWQR          |
+|  1464 | Graehme   | Maylard      |             8381663365 |  9333666436 | gmaylard13@gmail.com     | 2023-07-26 | Liberia      | Monrovia     | Male   | Graehme     | treq24@          |
 |  1700 | Mike      | Gobeaux      |             4501670706 |  9043295857 | mgobeauxu@aol.com        | 2023-11-01 | Congo        | Brazzaville  | Male   | Gobeaux     | g063@            |
 |  1775 | Patton    | Kobierski    |             9973146740 |  5133933064 | pkobierskiy@gmail.com    | 2023-01-28 | Sierra Leone | Freetown     | Male   | 1775        | #trellu9         |
 |  2599 | Rey       | Anglim       |             3736136599 |  9344470784 | ranglim12@gmail.com      | 2023-01-20 | Sierra Leone | Freetown     | Male   | 2599        | trooper1         |
-|  2606 | Fran      | Loads        |             9255972104 |  1651982327 | floadsw@aol.com          | 2023-02-04 | Monrovia     | Liberia      | Male   | 2606        | ffACCJT*3        |
+|  2606 | Fran      | Loads        |             9255972104 |  1651982327 | floadsw@aol.com          | 2023-02-04 | Liberia      | Monrovia      | Male   | 2606        | ffACCJT*3        |
 |  2800 | Gerrilee  | Tate         |             2542511228 |  8044527667 | gtatep@wgmail.com        | 2023-07-12 | Tanzania     | Dodoma       | Male   | Gerrilee2   | hGerr11          |
 |  3041 | Kerby     | Mussington   |             9819588828 |  6244660986 | kmngtonq@aol.com         | 2023-08-16 | Gambia       | Banjul       | Female | Mussington1 | Letsgrew1        |
-|  4135 | Millard   | Stiegers     |             1914083977 |  8145567280 | mstiegersb@gmail.com     | 1992-02-13 | Monrovia     | Liberia      | Male   | Stiegers    | Stieg48          |
+|  4135 | Millard   | Stiegers     |             1914083977 |  8145567280 | mstiegersb@gmail.com     | 1992-02-13 | Liberia      | Monrovia      | Male   | Stiegers    | Stieg48          |
 |  4347 | Felicia   | Beveredge    |             1894090074 |  2487801239 | fbev@cgmail.com          | 2023-09-25 | Sierra Leone | Freetown     | Male   | Beveredge   | ieaTre1          |
 |  4899 | Rodolph   | Glidden      |             4441789229 |  4032210767 | rgliddenz@aol.com        | 2023-02-10 | Sierra Leone | Freetown     | Male   | RodolphGl   | Rodo1            |
 |  5002 | Ingelbert | Tyrone       |             4959266342 |  7262196007 | ityronev@gmail.com       | 2023-07-28 | Tanzania     | Dodoma       | Male   | Ingelbert   | artingelber      |
@@ -757,7 +757,7 @@ mysql> select * from  residentowner ;
 | 41509 | Oralee    | Zecchi       |             8645260161 |  6672329263 | ozecchii@woot.com        | 1995-06-29 | Tanzania     | Dodoma       | Male   | 41509       | fromtree22       |
 | 42000 | North     | MacShirie    |             1811238320 |  4943219177 | nmacshirief@gmail.com    | 1995-09-13 | Liberia      | Monrovia     | Male   | 42000       | askmetyou4       |
 | 44550 | Silvain   | Haquard      |             7127169250 |  3094550899 | shaquard3@hows.com       | 1996-12-19 | Liberia      | Monrovia     | Male   | Haquard001  | Haqu809          |
-| 46313 | Daffie    | Hoy          |             3617560871 |  7317361295 | dhoy6@imdb.com           | 1990-05-11 | Monrovia     | Liberia      | Male   | DaffieHoy   | Daffiee88        |
+| 46313 | Daffie    | Hoy          |             3617560871 |  7317361295 | dhoy6@imdb.com           | 1990-05-11 | Liberia      | Monrovia     | Male   | DaffieHoy   | Daffiee88        |
 | 50340 | Hendrika  | Gonzalez     |             4243990919 |  7749999111 | hgoez5@nature.com        | 1987-08-07 | Rwanda       | Kigali       | Female | Hendrika001 | HenDrek1         |
 | 50746 | Swen      | Outram       |             9821203406 |  5107730342 | soutram4@tumblr.com      | 1972-12-01 | South Africa | Cape Town    | Male   | Swen        | ewens123         |
 | 54535 | Papageno  | Lambart      |             9177706783 |  1031215689 | plambartj@rambler.ru     | 1983-03-10 | Guinea       | Conakry      | Male   | Papageno    | Congoman4        |
@@ -769,7 +769,7 @@ mysql> select * from  residentowner ;
 | 66462 | Forester  | McSharry     |             6524123846 |  2987218392 | fmcsharryn@mot.com       | 1995-05-15 | Sierra Leone | Freetown     | Male   | 66462       | QWLL1            |
 | 75405 | Sharona   | McGillecole  |             5871531665 |  2653712987 | smcgl@gmail.com          | 1979-04-16 | Madagascar   | Antananarivo | Female | McGillecole | Mcgill875        |
 | 77542 | Joshuah   | Fennessy     |             9408686181 |  6806848436 | jfeyl@aol.com            | 1995-12-22 | Sierra Leone | Freetown     | Male   | 77542Jos    | getITOR          |
-| 83040 | Pip       | Dahmel       |             2898914415 |  9238872868 | pdahmele@list-manage.com | 1990-07-29 | Monrovia     | Liberia      | Male   | PipDahmel   | Pip!lEtatter     |
+| 83040 | Pip       | Dahmel       |             2898914415 |  9238872868 | pdahmele@list-manage.com | 1990-07-29 | Liberia      | Monrovia     | Male   | PipDahmel   | Pip!lEtatter     |
 | 84815 | Lindi     | Hambrook     |             7815086646 |  6373039707 | lhambrooka@twitter.com   | 1990-02-24 | Sudan        | Khartoum     | Female | 84815       | Secretscr1       |
 | 88239 | Donny     | Ivanaev      |             8225729883 |  5831640334 | divanaevm@china.com      | 1992-04-06 | Sierra Leone | Freetown     | Male   | Donny       | press112         |
 | 90311 | Shari     | Drennan      |             6567168380 |  4313364785 | sdre@gmail.com           | 1992-06-08 | Liberia      | Monrovia     | Male   | 90311       | wetyddh2         |
