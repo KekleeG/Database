@@ -708,7 +708,7 @@ INSERT INTO Sponsor VALUES
 
 
 
--- SHOW EVERY RESIDENT IN THE CITY ALONG WITH THEIR USERNAME AND PASSWORD
+-- DISPLAY EVERY RESIDENTS PERSONAL INFORMATION ALONG WITH THEIR USERNAME AND PASSWORD
 mysql> select * from  residentowner ;
 +-------+-----------+--------------+------------------------+-------------+--------------------------+------------+--------------+--------------+--------+-------------+------------------+
 | ResId | FirstName | LastName     | Social_Security_Number | PhoneNumber | Email                    | Birthday   | Birthcountry | Birthcity    | Gender | Username    | Password         |
