@@ -1,6 +1,6 @@
 
 -- Welcome to New Orange City, This is a city that only accepts individuals
--- that are on work visa. This new built city is partnering with the Government
+-- that are on A work visa. This new built city is partnering with the Government
 -- to help work-visa residents with their living where they will be given a
 -- house and a car. In order to recieve and keep a vehicle, resident must pay
 -- an extra $450 a month for the vehicle and Payment method will only be credit
@@ -240,13 +240,8 @@ INSERT INTO address VALUES
   (67357,      36928,  'Adore',      'Brash',          9036,    'Mits Street',        'Orange County'),
   (15335,      75405,  'Sharona',    'McGillecole',    9037,    'Mits Street',        'Orange County'),
   (57555,      93705,  'Edgardo',    'Franzen',        1836,    'Cascade Street',     'Orange County');
-
-
   INSERT INTO address VALUES
   (45353,     15123, 'Richart',      'Redhouse',    1837,      'Cascade Street',     'Orange County');
-
-
-
    INSERT INTO address VALUES
   (67654,     13492, 'Clarette',     'Jolliff',     9038,      'Mits Street',        'Orange County');
 
@@ -259,11 +254,7 @@ INSERT INTO address VALUES
   (00998,     07510, 'Mariana',      'Allan',       9040,      'Mits Street',        'Orange County'),
   (77542,     65748, 'Clary',        'Woodham',     1041,      'Dennis  Street' ,    'Orange County'),
   (11667,     09975, 'Dougie',       'Gerold',      1042,      'Dennis  Street' ,    'Orange County');
-
-
-
 INSERT INTO address VALUES
-
  (34546, 31690 , 'Malvina',      'Loney',  1042 , 'Dennis  Street' ,    'Orange County'),
  (10001, 04135 , 'Millard',      'Stiegers', 1043, 'Dennis  Street' ,    'Orange County'),
  (20002, 00499 , 'Ermina',       'Hurich',  1840, 'Cascade Street',     'Orange County'),
@@ -279,11 +270,6 @@ INSERT INTO address VALUES
  (76954, 88239 , 'Donny',        'Ivanaev',  1844, 'Cascade Street',     'Orange County'),
  (12942, 66462 , 'Forester',     'McSharry', 1845, 'Cascade Street',     'Orange County'),
  (65455, 12400 , 'Marlin',       'Jeaneau', 1846,  'Cascade Street',     'Orange County');
-
-
-
-
-
  INSERT INTO address VALUES
  (2800, 2800, 'Gerrilee',      'Tate',       1046,  'Dennis  Street' ,    'Orange County'),
  (3041, 3041, 'Kerby',         'Mussington', 1047,  'Cascade Street',     'Orange County'),
@@ -310,7 +296,6 @@ INSERT INTO carassigned VALUES
 (2222, 30161 , 'Yes', 2018, 'Toyota', 'Camry',   'Silver',  85, 'Sedan'),
 (2223,  07024, 'Yes', 2019, 'Toyota', 'Camry',   'Black',   85, 'Sedan' ),
 (2224, 50746 ,' Yes', 2020, 'Dodge',  'Charger', 'Silver',  93, 'Sedan');
-
 INSERT INTO carassigned VALUES
 (2225, 21243, 'Yes', 2018, 'Buik', 'Lacrosse', 'Silver', 85, 'Sedan'),
 (2226, 28646, 'Yes', 2019, 'Toyota', 'Camry', 'Black', 85, 'Sedan'),
@@ -319,20 +304,16 @@ INSERT INTO carassigned VALUES
 (2229, 84815, 'Yes', 2018, 'Buik', 'Lacrosse', 'Silver', 85, 'Sedan'),
 (2230, 08374, 'Yes', 2019, 'Toyota', 'Camry', 'Black', 85, 'Sedan'),
 (2231, 31596, 'Yes', 2020, 'Dodge', 'Charger', 'Silver', 93, 'Sedan'),
-
 (2332, 06635, 'No ', 0, '   ', '   ', '  ', 0, '  '),
 (2333, 83040, 'No ', 0, '  ', '   ', '  ', 0, '  '),
 (2334, 97474, 'No ', 0, '  ', '   ', '  ', 0, '  '),
-
 (2335, 29951, 'No ', 0, '  ', '   ', '  ', 0, '  '),
 (2336, 33953, 'No ', 0, '  ', '   ', '  ', 0, '  '),
 (2337, 14806, 'No ', 0, '  ', '   ', '  ', 0, '  '),
 (2338, 54535, 'No ', 0, '  ', '   ', '  ', 0, '  '),
 (2339, 36928, 'No ', 0, '  ', '   ', '  ', 0, '  '),
 (2340, 75405, 'No ', 0, '  ', '   ', '  ', 0, '  '),
-
 (2341, 93705, 'No ', 0, '  ', '   ', '  ', 0, '  '),
-
 (2342, 15123, 'Yes', 2019, 'Toyota', 'Camry', 'Black', 85, 'Sedan');
 
 
@@ -364,10 +345,6 @@ INSERT INTO carassigned VALUES
 (2364,  88239,  'No' ,  0 , '  ' ,     '   ',      '  ', 0   ,    '  ' ),
 (2365,  66462, 'Yes', 2020, 'Dodge',  'Charger',     'Silver',   93, 'Sedan'),
 (2366,  12400,   'No' ,  0 , '  ' ,     '   ',      '  ', 0   ,    '  ' );
-
-
-
-
 INSERT INTO carassigned VALUES
 (2367, 2800, 'Yes', 2020, 'Dodge',  'Charger',     'Silver',   93, 'Sedan'),
 (2368, 3041, 'No',   0 , '  ' ,     '   ',      '  ',   0   ,    '  ' ),
@@ -398,7 +375,6 @@ INSERT INTO Job VALUES
 (1004, 07024, 'Nurse',               9646432754,   'Jorgan	Penhaleurack',	6123196391,	  'jpenhal3@gmail.com'),
 (1005, 50746, 'Scientist',           9643547649,   'Nissy	OSiaghail',     	1756161011, 	'nosiaghail4@mit.edu'),
 (1006, 21243, 'Nurse',               9641246780,   'Aida Edmenson',         7944687808,   'aedmen@gmail.com');
-
 INSERT INTO Job VALUES
 (1007, 55711, 'General Manager',     9647654612, 'Cecile	Stapford',     	4073896495,	    'cstapford6@gmail.com' ),
 (1008, 28646, 'School Teacher',      9645647643, 'Micki	Matuszinski',    	3092150179,   	'mmatski7@gmail.com' ),
@@ -408,8 +384,6 @@ INSERT INTO Job VALUES
 (1012, 08374, 'Nurse',               9562674590, 'Micki	Matuszinski',	    3092150179,	    'mmaski7@yahoo.com'),
 (1013, 31596, 'School Teacher',      9645647643, 'Micki	Matuszinski',    	3092150179,	    'mmatnski7@yahoo.com'),
 (1014, 06635, 'General Manager',     9562165907, 'Lorettalorna	Eltone',	6608251131,	    'leltone8@gmail.com');
-
-
 INSERT INTO Job VALUES
 (1015, 83040,  'Automotive Engineer', 9561217836, 	'Iggie	Fishpoole',    	4428148809,	   'ifishpoole9@msn.com'),
 (1016, 97474,  'Salesman',            9560672775,   'Annadiane Allwell',  	9268672747,    'wella@msn.com' ),
@@ -434,16 +408,11 @@ INSERT INTO Job VALUES
 (1031, 07510,  'Nurse',               9564457879, 'Lilla	Mahon',         3609905230,	    'lmah@gmail.com' ) ,
 (1032, 65748,  'General Manager' ,    9566651111, 'Cecile	Stapford',    	4073896495,	    'cstapford6@gmail.com' ),
 (1033, 09975,  'General Manager',     9562165900, 'Cecile	Stapford',     	4073896495,	    'cstapford6@gmail.com' );
-
-
 INSERT INTO Job VALUES
 (1044,31690,  'General Manager' ,     9564958203, 'Curl Jeww',            4073951039,     'curljeww@gmail.com');
-
 INSERT INTO Job VALUES
 (1055,04135,  'Truck Driver',         9561002030, 'James Stre',           3978293311,     'jamesstre@gmail.com'),
 (1056,00499,  'Nurse',                9567732930, 'Carlos Hii',           9563940394,     'Carloshii@yahoo.com');
-
-
 INSERT INTO Job VALUES
 (1057,20000,  'Nurse',                9567732930, 'Carlos Hii',           9563940394,     'Carloshii@yahoo.com'),
 (1058,21156,  'Nurse',                9567732930, 'Carlos Hii',           9563940394,     'Carloshii@yahoo.com'),
@@ -461,12 +430,8 @@ INSERT INTO Job VALUES
 
 INSERT INTO Job VALUES
 (1069, 2800, 'General Manager',     9562165900, 'Cecile	Stapford',     	4073896495,	    'cstapford6@gmail.com');
-
-----
 INSERT INTO Job VALUES
 (1070, 3041, 'Nurse',               9567732930, 'Carlos Hii',           9563940394,     'Carloshii@yahoo.com');
-
-
 INSERT INTO Job VALUES
 (1071, 4347, 'Nurse',              9567732930, 'Carlos Hii',           9563940394,     'Carloshii@yahoo.com'),
 (1072, 6077, 'Truck Driver',       9561002030, 'James Stre',           3978293311,     'jamesstre@gmail.com'),
@@ -504,10 +469,6 @@ INSERT INTO FrontOffice VALUES
 (15, 83040 ),
 (16, 97474 ),
 (17, 29951 );
-
-
-
-
 INSERT INTO FrontOffice VALUES
 (18, 33953 ),
 (19, 14806 ),
@@ -579,10 +540,8 @@ INSERT INTO Payment VALUES
 
 INSERT INTO Payment VALUES
 (32, 84815, 11, 'Debit Card',  'Lindi', 'Hambrook', 1468655489099075, '2028-12-12', 123, 1250.00);
-
 INSERT INTO Payment VALUES
 (33, 08374, 12, 'Debit Card', 'Mireielle', 'Mayell', 1346789655467454, '2025-11-12', 233, 800.00);
-
 INSERT INTO Payment VALUES
 (34, 31596, 13, 'Credit Card', 'Prescott', 'Todor',        6907564563632264, '2024-11-09', 344, 800.00),
 (35, 06635, 14, 'Debit Card',  'Kat',      'Tumility',     0807060504030201, '2026-09-07', 760, 800.00),
@@ -595,14 +554,10 @@ INSERT INTO Payment VALUES
 (42, 36928, 21, 'Debit Card',  'Adore',    'Brash',        3958497575049684, '2026-01-10', 545, 800.00),
 (43, 75405, 22, 'Credit Card', 'Sharona',  'McGillecole',  9409685693059495, '2027-10-12', 245, 800.00),
 (44, 93705, 23, 'Debit Card',  'Edgardo',  'Franzen',      5079556839687596, '2027-10-12', 785, 800.00);
-
-
 INSERT INTO Payment VALUES
 (45, 15123, 24, 'Debit Card',  'Richart',      'Redhouse',    1234567890981235,  '2025-11-09',  975 , 1250.00 );
-
 INSERT INTO Payment VALUES
 (46, 13492, 25,  'Credit Card', 'Clarette',     'Jolliff',     2132345465433535,  '2024-01-02', 874 , 800.00  );
-
 INSERT INTO Payment VALUES
 (47, 55740, 26,  'Debit Card',  'Augustin',     'Brookbank',   9909999998765555,  '2024-12-12', 540,  1250.00  ),
 (48, 44550, 27,  'Credit Card', 'Silvain',      'Haquard',     9000008776655555,  '2027-10-12', 210,  800.00  ),
@@ -612,18 +567,14 @@ INSERT INTO Payment VALUES
 (52, 07510, 31,  'Debit Card',  'Mariana',      'Allan',       1344543478543364,  '2025-03-01', 156,  800.00  ),
 (53, 65748, 32,  'Debit Card',  'Clary',        'Woodham',     1344577893477535,  '2027-11-14', 444,  1230.00  ),
 (54, 09975, 33,  'Credit Card', 'Dougie',       'Gerold',      5566722244113464,  '2025-11-12', 101,  800.00  );
-
-
 INSERT INTO Payment VALUES
 (55, 31690, 34, 'Credit Card',  'Malvina',      'Loney',       4545671245435436, '2026-12-26', 555, 1230.00),
 (56, 04135, 35, 'Debit Card',   'Millard',      'Stiegers',    5437653123456545, '2026-11-25', 972, 800.00),
 (57, 00499, 36, 'Debit Card',   'Ermina',       'Hurich',      4654554545455645, '2025-12-13', 817, 1230.00),
 (58, 20000, 37, 'Credit Card',  'Anastasie',    'Amery',       1121212342454565, '2026-01-09', 214, 800.00),
 (59, 21156, 38, 'Debit Card',   'Alexandr',     'Crowcroft',   8787865645453444, '2024-10-15', 314, 800.00);
-
 INSERT INTO Payment VALUES
 (60, 42000, 39, 'Credit Card',  'North',        'MacShirie',   4445454546765634, '2026-01-09', 354, 1230.00);
-
 INSERT INTO Payment VALUES
 (61, 90311, 40, 'Credit Card',  'Shari',        'Drennan',     1235545645466909, '2024-12-12', 675, 800.00);
 
@@ -632,16 +583,11 @@ INSERT INTO Payment VALUES
 
 INSERT INTO Payment VALUES
 (62, 24566, 41, 'Credit Card',  'Brigitte',     'Ealam',       8887655553432323, '2024-11-09', 200, 1230.00);
-
 INSERT INTO Payment VALUES
 (63, 41509, 42, 'Debit Card',   'Oralee',       'Zecchi',      9099890908766554, '2025-12-13', 888, 1230.00),
-
-
 (64, 41267, 43, 'Debit Card',   'Hernando',     'Cafferty',    2123445452255643, '2025-12-13', 642, 800.00),
 (65, 99130, 44, 'Credit Card',  'Darda',        'Moffet',      4433356275443111, '2025-12-13', 211, 1230.00),
 (66, 77542, 45, 'Debit Card',   'Joshuah',      'Fennessy',    1267893322223343, '2026-01-10', 313, 1230.00),
-
-
 (67, 88239, 46, 'Credit Card',  'Donny',        'Ivanaev',     9009876543211111, '2024-11-09', 414, 800.00),
 (68, 66462, 47, 'Debit Card' ,  'Forester',     'McSharry',    1688877754433221, '2024-11-09', 514, 1230.00),
 (69, 12400, 48, 'Credit Card',  'Marlin',       'Jeaneau',     7787654332565586, '2026-01-10', 627, 800.00),
@@ -683,10 +629,6 @@ INSERT INTO Sponsor VALUES
 (108, 28646 ,  'NSA',	   'NSA@privacy.gov/visa'	, 4399778480 ),
 (109, 56979 ,  'CGI',	   'CGI.Visahelp@cgi.com', 	6399896840 ),
 (110, 90569,   'World Travel Visa',	 'world.travel@visa.com', 4327860572);
-
-
-
-
 INSERT INTO Sponsor VALUES
 (111, 84815 ,  'World Travel Visa',	'world.travel@visa.com', 4327860572),
 (112, 08374,   'Meetz',	    'sgaber6@51.com', 9105011508),
@@ -694,7 +636,6 @@ INSERT INTO Sponsor VALUES
 (114, 06635,   'Edgewire',	'dpetruskevich1@hud.gov',	3149535949),
 (115, 83040,   'World Travel Visa',	'world.travel@visa.com', 4327860572),
 (116, 97474,   'World Travel Visa',	'world.travel@visa.com', 4327860572);
-
 INSERT INTO Sponsor VALUES
 (117, 29951,   'Meetz',	    'sgaber6@51.com', 9105011500),
 (118, 33953,   'CGI',	  'CGI.Visahelp@cgi.com', 6399896840),
@@ -732,7 +673,6 @@ INSERT INTO Sponsor VALUES
 (146, 88239, 'CGI', 'CGI.Visahelp@cgi.com', 6399896840),
 (147, 66462, 'NSA', 'NSA@privacy.gov/visa', 4399778480),
 (148, 12400, 'NSA', 'NSA@privacy.gov/visa', 4399778480),
-
 (149, 2800, 'NSA', 'NSA@privacy.gov/visa', 4399778480),
 (150, 3041, 'NSA', 'NSA@privacy.gov/visa', 4399778480),
 (151, 4347, 'NSA', 'NSA@privacy.gov/visa', 4399778480),
@@ -752,7 +692,504 @@ INSERT INTO Sponsor VALUES
 
 
 
-![Screen Shot 2023-12-24 at 3 18 42 AM](https://github.com/KekleeG/Database/assets/149440736/0b72d319-47f9-4076-b7d1-20858aafd2c7)
+ 
 
 
 
+-- NOW ENTERING A SPACE WHERE YOU ARE EITHER A HACKER OR AUTHORIZED USER.
+-- YOU CAN ASK THE DATABASE QUESTIONS AND RECIEVE ANSWERS.
+-- "FOR PROJECT REASIONS" , GIVING THE LIMIT OF SOFTWARE PRODUCTS FOR DATA
+-- ANALYSIS, HERE ARE A COUPLE SCREEN SHOTS OF REULTS THAT YOU WOULD SEE
+-- IF YOU QUERY THIS CODE AS AN " AUTHORIZED USER " AKA "DATA ENGINEER" OR "ANALYST". 
+-- HACKERS SUCK! 
+                          
+
+
+
+
+
+-- SHOW EVERY RESIDENT IN THE CITY ALONG WITH THEIR USERNAME AND PASSWORD
+mysql> select * from  residentowner ;
++-------+-----------+--------------+------------------------+-------------+--------------------------+------------+--------------+--------------+--------+-------------+------------------+
+| ResId | FirstName | LastName     | Social_Security_Number | PhoneNumber | Email                    | Birthday   | Birthcountry | Birthcity    | Gender | Username    | Password         |
++-------+-----------+--------------+------------------------+-------------+--------------------------+------------+--------------+--------------+--------+-------------+------------------+
+|   499 | Ermina    | Hurich       |             1981953123 |  8309008112 | ehurichc@yahoo.com       | 1995-01-27 | Gambia       | Banjul       | Female | Ermina      | JAcket3          |
+|  1025 | Dorie     | Poleye       |             9794178130 |  7145983524 | dpoleyet@hhs.gov         | 2023-05-16 | Congo        | Brazzaville  | Female | 1025        | 1025J            |
+|  1198 | Erin      | Isaacson     |             2693682664 |  4291303448 | eisaacson10@google.cn    | 2022-12-23 | Monrovia     | Liberia      | Male   | Isaacson    | grabI2!          |
+|  1265 | Penny     | Vezey        |             6906923418 |  5245457622 | pvezey11@nyu.edu         | 2023-10-13 | Monrovia     | Liberia      | Male   | 1265        | GREEWQR          |
+|  1464 | Graehme   | Maylard      |             8381663365 |  9333666436 | gmaylard13@gmail.com     | 2023-07-26 | Monrovia     | Liberia      | Male   | Graehme     | treq24@          |
+|  1700 | Mike      | Gobeaux      |             4501670706 |  9043295857 | mgobeauxu@aol.com        | 2023-11-01 | Congo        | Brazzaville  | Male   | Gobeaux     | g063@            |
+|  1775 | Patton    | Kobierski    |             9973146740 |  5133933064 | pkobierskiy@gmail.com    | 2023-01-28 | Sierra Leone | Freetown     | Male   | 1775        | #trellu9         |
+|  2599 | Rey       | Anglim       |             3736136599 |  9344470784 | ranglim12@gmail.com      | 2023-01-20 | Sierra Leone | Freetown     | Male   | 2599        | trooper1         |
+|  2606 | Fran      | Loads        |             9255972104 |  1651982327 | floadsw@aol.com          | 2023-02-04 | Monrovia     | Liberia      | Male   | 2606        | ffACCJT*3        |
+|  2800 | Gerrilee  | Tate         |             2542511228 |  8044527667 | gtatep@wgmail.com        | 2023-07-12 | Tanzania     | Dodoma       | Male   | Gerrilee2   | hGerr11          |
+|  3041 | Kerby     | Mussington   |             9819588828 |  6244660986 | kmngtonq@aol.com         | 2023-08-16 | Gambia       | Banjul       | Female | Mussington1 | Letsgrew1        |
+|  4135 | Millard   | Stiegers     |             1914083977 |  8145567280 | mstiegersb@gmail.com     | 1992-02-13 | Monrovia     | Liberia      | Male   | Stiegers    | Stieg48          |
+|  4347 | Felicia   | Beveredge    |             1894090074 |  2487801239 | fbev@cgmail.com          | 2023-09-25 | Sierra Leone | Freetown     | Male   | Beveredge   | ieaTre1          |
+|  4899 | Rodolph   | Glidden      |             4441789229 |  4032210767 | rgliddenz@aol.com        | 2023-02-10 | Sierra Leone | Freetown     | Male   | RodolphGl   | Rodo1            |
+|  5002 | Ingelbert | Tyrone       |             4959266342 |  7262196007 | ityronev@gmail.com       | 2023-07-28 | Tanzania     | Dodoma       | Male   | Ingelbert   | artingelber      |
+|  6077 | Obie      | Jeanet       |             3864073294 |  4599724131 | ojeanets@gmsil.com       | 2023-03-24 | Liberia      | Monrovia     | Female | Jeanet      | Jean33           |
+|  6635 | Kat       | Tumility     |             6465409716 |  3323124282 | tumilityd@aboutads.com   | 1983-12-12 | Congo        | Brazzaville  | Female | Tumility    | timTimq1         |
+|  6909 | Farlee    | Flahy        |             4265010392 |  5792999812 | fflahyx@aol.net          | 2022-12-25 | Sierra Leone | Freetown     | Male   | 6909        | aTthe09@         |
+|  7024 | Aubine    | Imason       |             7633309884 |  7273420758 | aimason3@google.com      | 1990-01-19 | Guinea       | Conakry      | Female | Imason      | THREEQ11         |
+|  7510 | Mariana   | Allan        |             4373188445 |  9261080924 | mallan7@cal.com          | 1993-01-20 | Nigeria      | Abuja        | Female | 07510       | 08dfhhehsqwr     |
+|  8374 | Mireielle | Mayell       |             3244156226 |  4154596272 | mmayellb@unc.edu         | 1983-11-27 | Rwanda       | Kigali       | Female | Mireielle   | !MirgoGo4        |
+|  9975 | Dougie    | Gerold       |             8616692455 |  5101705307 | dgerold9@yahoo.com       | 1993-02-11 | South Africa | Cape Town    | Male   | 09975       | drentre          |
+|  9988 | Ario      | Covet        |             7093060343 |  5312084110 | acovet14@webs.com        | 2023-05-17 | Sierra Leone | Freetown     | Male   | 9988        | @fFSGfdouy       |
+| 12400 | Marlin    | Jeaneau      |             9874622731 |  8897693558 | mjeao@naver.com          | 1993-07-03 | Sierra Leone | Freetown     | Male   | Marlin56    | GOGTROM          |
+| 13492 | Clarette  | Jolliff      |             2117055594 |  1775332811 | cjolliff1@gmpg.org       | 1987-01-06 | Congo        | Brazzaville  | Female | Clarette    | Clarbest$1       |
+| 14806 | Normie    | Mangeon      |             2281464826 |  2615849962 | nmangeoni@yahoo.com      | 1979-02-07 | Tanzania     | Dodoma       | Male   | 14806       | Dodomaboy4       |
+| 15123 | Richart   | Redhouse     |             3429080003 |  5376887020 | rredhouse0@ibm.com       | 1990-12-02 | Liberia      | Monrovia     | Male   | Richart     | Ric@rt$1         |
+| 20000 | Anastasie | Amery        |             1806063297 |  9812443363 | aameryd@aol.com          | 1993-01-28 | Rwanda       | Kigali       | Female | 20000       | StorePassse2     |
+| 21156 | Alexandr  | Crowcroft    |             9232839377 |  9979412632 | acrowc@aol.com           | 1995-11-14 | Congo        | Brazzaville  | Female | Alexandr    | Alex2023         |
+| 21243 | Karlis    | Thornebarrow |             3197500170 |  4578175942 | kthornebarrow5@go.com    | 1983-10-20 | Sierra Leone | Freetown     | Male   | Karlis      | kgragopuraal     |
+| 24566 | Brigitte  | Ealam        |             7987980157 |  6546470860 | bealamh@aol.com          | 1993-11-23 | Congo        | Brazzaville  | Male   | Brigitte    | 87hotnoy!        |
+| 28646 | Mel       | Shotboulte   |             6006394285 |  7328876412 | mshotboulte7@g.co        | 1983-02-28 | Sierra Leone | Freetown     | Male   | MelShotb    | Mel1996          |
+| 29951 | Veradis   | Enns         |             8988003918 |  7565685293 | vennsg@lulu.com          | 1979-10-13 | Congo        | Brazzaville  | Female | Veradis299  | Vera563r4f!      |
+| 30161 | Kathleen  | Coughan      |             9979606668 |  3505496348 | kcoughan2@bigcartel.com  | 1983-12-24 | Liberia      | Monrovia     | Female | Kathleen    | @letsgotr3       |
+| 31596 | Prescott  | Todor        |             6032617498 |  7496028083 | ptodorc@cafepress.com    | 1972-04-04 | Tanzania     | Dodoma       | Male   | Prescott    | Afhuuytbf645!rbf |
+| 31690 | Malvina   | Loney        |             7856458833 |  7924932457 | mloneya@gmail.com        | 1995-10-24 | South Africa | Cape Town    | Male   | Malvina     | mMaLvana12       |
+| 32014 | Misti     | Lacelett     |             3237873622 |  4228393226 | mlacelett1@blogspot.com  | 1972-10-12 | Brazzaville  | Congo        | Female | Misti       | @dropecar1304!   |
+| 33953 | Terry     | Robjents     |             5132908585 |  5583848492 | trobjentsh@aol.com       | 1983-05-04 | Liberia      | Monrovia     | Female | 33953       | 33953lIbaol      |
+| 36928 | Adore     | Brash        |             3325129405 |  3286552361 | abrashk@shutterfly.com   | 1990-07-31 | Gambia       | Banjul       | Female | AdoreBrash  | Brash21          |
+| 38321 | Scott     | Duckett      |             6438042530 |  5032412866 | sduckett0@harvard.edu    | 1983-01-10 | Gambia       | Banjul       | Male   | G38321      | @dortqueirs1     |
+| 41267 | Hernando  | Cafferty     |             8796831119 |  6925651776 | hcafftyj@yahoo.com       | 1993-06-17 | Tanzania     | Dodoma       | Male   | Hernando    | mixpassyea       |
+| 41509 | Oralee    | Zecchi       |             8645260161 |  6672329263 | ozecchii@woot.com        | 1995-06-29 | Tanzania     | Dodoma       | Male   | 41509       | fromtree22       |
+| 42000 | North     | MacShirie    |             1811238320 |  4943219177 | nmacshirief@gmail.com    | 1995-09-13 | Liberia      | Monrovia     | Male   | 42000       | askmetyou4       |
+| 44550 | Silvain   | Haquard      |             7127169250 |  3094550899 | shaquard3@hows.com       | 1996-12-19 | Liberia      | Monrovia     | Male   | Haquard001  | Haqu809          |
+| 46313 | Daffie    | Hoy          |             3617560871 |  7317361295 | dhoy6@imdb.com           | 1990-05-11 | Monrovia     | Liberia      | Male   | DaffieHoy   | Daffiee88        |
+| 50340 | Hendrika  | Gonzalez     |             4243990919 |  7749999111 | hgoez5@nature.com        | 1987-08-07 | Rwanda       | Kigali       | Female | Hendrika001 | HenDrek1         |
+| 50746 | Swen      | Outram       |             9821203406 |  5107730342 | soutram4@tumblr.com      | 1972-12-01 | South Africa | Cape Town    | Male   | Swen        | ewens123         |
+| 54535 | Papageno  | Lambart      |             9177706783 |  1031215689 | plambartj@rambler.ru     | 1983-03-10 | Guinea       | Conakry      | Male   | Papageno    | Congoman4        |
+| 55711 | Winny     | Turbitt      |             1402440015 |  7208529090 | wturbitt6@globo.com      | 1990-03-25 | Zimbabwe     | Harare       | Male   | Winny       | gGogoGo          |
+| 55740 | Augustin  | Brookbank    |             3455729935 |  1209378357 | abrookbank2@gmail.com    | 1986-10-10 | Tanzania     | Dodoma       | Male   | Augustin    | AugUsT212        |
+| 56979 | Eilis     | Colerick     |             7398927694 |  6918707363 | ecolerick8@bbc.co.uk     | 1972-10-06 | South Sudan  | Juba         | Female | Eilis001    | Lettyellis04     |
+| 65459 | Marleah   | Trammel      |             7731332085 |  5646719380 | mtmel4@examiner.com      | 1993-01-08 | Rwanda       | Kigali       | Female | 50340Rw     | 504letsgo!       |
+| 65748 | Clary     | Woodham      |             6193206584 |  1435157873 | cwoodham8@gmail.org      | 1990-07-20 | Gambia       | Banjul       | Female | Woodham     | Ashbtren12       |
+| 66462 | Forester  | McSharry     |             6524123846 |  2987218392 | fmcsharryn@mot.com       | 1995-05-15 | Sierra Leone | Freetown     | Male   | 66462       | QWLL1            |
+| 75405 | Sharona   | McGillecole  |             5871531665 |  2653712987 | smcgl@gmail.com          | 1979-04-16 | Madagascar   | Antananarivo | Female | McGillecole | Mcgill875        |
+| 77542 | Joshuah   | Fennessy     |             9408686181 |  6806848436 | jfeyl@aol.com            | 1995-12-22 | Sierra Leone | Freetown     | Male   | 77542Jos    | getITOR          |
+| 83040 | Pip       | Dahmel       |             2898914415 |  9238872868 | pdahmele@list-manage.com | 1990-07-29 | Monrovia     | Liberia      | Male   | PipDahmel   | Pip!lEtatter     |
+| 84815 | Lindi     | Hambrook     |             7815086646 |  6373039707 | lhambrooka@twitter.com   | 1990-02-24 | Sudan        | Khartoum     | Female | 84815       | Secretscr1       |
+| 88239 | Donny     | Ivanaev      |             8225729883 |  5831640334 | divanaevm@china.com      | 1992-04-06 | Sierra Leone | Freetown     | Male   | Donny       | press112         |
+| 90311 | Shari     | Drennan      |             6567168380 |  4313364785 | sdre@gmail.com           | 1992-06-08 | Liberia      | Monrovia     | Male   | 90311       | wetyddh2         |
+| 90569 | Gibby     | Hussy        |             5409382652 |  3005824955 | ghussy9@360.cn           | 1972-10-31 | Uganda       | Kampala      | Male   | GibbyHu     | gGbiibbyyhuu     |
+| 93705 | Edgardo   | Franzen      |             8519205140 |  7164585249 | efranzenm@ibm.com        | 1983-10-28 | Congo        | Brazzaville  | Male   | 93705       | Franzen01        |
+| 97474 | Tersina   | Porkiss      |             6418578523 |  2061439406 | tporkissf@gmail.com      | 1983-09-09 | Nigeria      | Abuja        | Female | Tersina     | 123!Terinsa      |
+| 99130 | Darda     | Moffet       |             6863400622 |  6223601727 | dmoffetk@cune.com        | 1993-12-28 | Tanzania     | Dodoma       | Male   | 99130c      | hardtocrack      |
++-------+-----------+--------------+------------------------+-------------+--------------------------+------------+--------------+--------------+--------+-------------+------------------+
+
+
+
+
+MHMM, YOU KNOW WHAT, LETS SEE WHERE EVERY RESIDENT LIVES IN THIS CITY
+mysql> select * from   address ;
++-----------+-------+-----------+--------------+--------------+----------------+---------------+
+| AddressID | ResId | FirstName | LastName     | House_Number | Street         | City          |
++-----------+-------+-----------+--------------+--------------+----------------+---------------+
+|       998 |  7510 | Mariana   | Allan        |         9040 | Mits Street    | Orange County |
+|      1025 |  1025 | Dorie     | Poleye       |         1848 | Cascade Street | Orange County |
+|      1198 |  1198 | Erin      | Isaacson     |         1049 | Dennis  Street | Orange County |
+|      1265 |  1265 | Penny     | Vezey        |         1851 | Cascade Street | Orange County |
+|      1464 |  1464 | Graehme   | Maylard      |         1853 | Cascade Street | Orange County |
+|      1700 |  1700 | Mike      | Gobeaux      |         9045 | Mits Street    | Orange County |
+|      1775 |  1775 | Patton    | Kobierski    |         9046 | Mits Street    | Orange County |
+|      2599 |  2599 | Rey       | Anglim       |         1852 | Cascade Street | Orange County |
+|      2606 |  2606 | Fran      | Loads        |         1849 | Cascade Street | Orange County |
+|      2800 |  2800 | Gerrilee  | Tate         |         1046 | Dennis  Street | Orange County |
+|      3041 |  3041 | Kerby     | Mussington   |         1047 | Cascade Street | Orange County |
+|      4347 |  4347 | Felicia   | Beveredge    |         1048 | Dennis  Street | Orange County |
+|      4899 |  4899 | Rodolph   | Glidden      |         9047 | Mits Street    | Orange County |
+|      5002 |  5002 | Ingelbert | Tyrone       |         9046 | Mits Street    | Orange County |
+|      6077 |  6077 | Obie      | Jeanet       |         1847 | Cascade Street | Orange County |
+|      6909 |  6909 | Farlee    | Flahy        |         1850 | Cascade Street | Orange County |
+|      9988 |  9988 | Ario      | Covet        |         1854 | Cascade Street | Orange County |
+|     10001 |  4135 | Millard   | Stiegers     |         1043 | Dennis  Street | Orange County |
+|     11223 | 44550 | Silvain   | Haquard      |         1838 | Cascade Street | Orange County |
+|     11667 |  9975 | Dougie    | Gerold       |         1042 | Dennis  Street | Orange County |
+|     11704 | 41509 | Oralee    | Zecchi       |         9044 | Mits Street    | Orange County |
+|     12034 | 55711 | Winny     | Turbitt      |         9030 | Mits Street    | Orange County |
+|     12352 | 84815 | Lindi     | Hambrook     |         1833 | Cascade Street | Orange County |
+|     12942 | 66462 | Forester  | McSharry     |         1845 | Cascade Street | Orange County |
+|     15335 | 75405 | Sharona   | McGillecole  |         9037 | Mits Street    | Orange County |
+|     15664 | 31596 | Prescott  | Todor        |         9033 | Mits Street    | Orange County |
+|     20002 |   499 | Ermina    | Hurich       |         1840 | Cascade Street | Orange County |
+|     22113 | 50340 | Hendrika  | Gonzalez     |         9038 | Mits Street    | Orange County |
+|     22334 | 65459 | Marleah   | Trammel      |         1839 | Cascade Street | Orange County |
+|     23546 |  6635 | Kat       | Tumility     |         9034 | Mits Street    | Orange County |
+|     30002 | 20000 | Anastasie | Amery        |         1841 | Cascade Street | Orange County |
+|     30484 | 30161 | Kathleen  | Coughan      |         1830 | Cascade Street | Orange County |
+|     30594 | 56979 | Eilis     | Colerick     |         9031 | Mits Street    | Orange County |
+|     33002 | 21156 | Alexandr  | Crowcroft    |         1842 | Cascade Street | Orange County |
+|     33022 | 90311 | Shari     | Drennan      |         9042 | Mits Street    | Orange County |
+|     34546 | 31690 | Malvina   | Loney        |         1042 | Dennis  Street | Orange County |
+|     34953 | 32014 | Misti     | Lacelett     |         1034 | Dennis Street  | Orange County |
+|     44022 | 42000 | North     | MacShirie    |         9041 | Mits Street    | Orange County |
+|     44407 | 24566 | Brigitte  | Ealam        |         9043 | Mits Street    | Orange County |
+|     45353 | 15123 | Richart   | Redhouse     |         1837 | Cascade Street | Orange County |
+|     48347 | 28646 | Mel       | Shotboulte   |         1832 | Cascade Street | Orange County |
+|     49504 | 21243 | Karlis    | Thornebarrow |         1831 | Cascade Street | Orange County |
+|     49583 | 50746 | Swen      | Outram       |         1035 | Dennis Street  | Orange County |
+|     56544 | 55740 | Augustin  | Brookbank    |         1040 | Dennis  Street | Orange County |
+|     57445 | 54535 | Papageno  | Lambart      |         1039 | Dennis  Street | Orange County |
+|     57555 | 93705 | Edgardo   | Franzen      |         1836 | Cascade Street | Orange County |
+|     65455 | 12400 | Marlin    | Jeaneau      |         1846 | Cascade Street | Orange County |
+|     67357 | 36928 | Adore     | Brash        |         9036 | Mits Street    | Orange County |
+|     67654 | 13492 | Clarette  | Jolliff      |         9038 | Mits Street    | Orange County |
+|     68764 | 33953 | Terry     | Robjents     |         9035 | Mits Street    | Orange County |
+|     76954 | 88239 | Donny     | Ivanaev      |         1844 | Cascade Street | Orange County |
+|     77542 | 65748 | Clary     | Woodham      |         1041 | Dennis  Street | Orange County |
+|     77866 | 99130 | Darda     | Moffet       |         1044 | Dennis  Street | Orange County |
+|     77886 | 46313 | Daffie    | Hoy          |         9039 | Mits Street    | Orange County |
+|     78565 | 97474 | Tersina   | Porkiss      |         1834 | Cascade Street | Orange County |
+|     87675 |  7024 | Aubine    | Imason       |         9029 | Mits Street    | Orange County |
+|     88444 | 41267 | Hernando  | Cafferty     |         1843 | Cascade Street | Orange County |
+|     90303 | 90569 | Gibby     | Hussy        |         9032 | Mits Street    | Orange County |
+|     90756 | 14806 | Normie    | Mangeon      |         1038 | Dennis  Street | Orange County |
+|     96369 | 83040 | Pip       | Dahmel       |         1037 | Dennis Street  | Orange County |
+|     97545 |  8374 | Mireielle | Mayell       |         1036 | Dennis Street  | Orange County |
+|     97546 | 29951 | Veradis   | Enns         |         1835 | Cascade Street | Orange County |
+|     98292 | 38321 | Scott     | Duckett      |         9028 | Mits Street    | Orange County |
+|     99901 | 77542 | Joshuah   | Fennessy     |         1045 | Dennis  Street | Orange County |
++-----------+-------+-----------+--------------+--------------+----------------+---------------+
+
+
+
+
+
+FOR ETHICAL REASONS, LETS ASK THE DATABASE TO GIVE US RESIDENT'S CREDIT CARD / DEBOT CARD INFORMATION ;
+
+mysql> select  Cardnumber, Firstname, Lastname, Expdate, Security_number from Payment;
++------------------+-----------+--------------+------------+-----------------+
+| Cardnumber       | Firstname | Lastname     | Expdate    | Security_number |
++------------------+-----------+--------------+------------+-----------------+
+| 1357924683579468 | Scott     | Duckett      | 2026-01-10 |             234 |
+| 5216484760008000 | Misti     | Lacelett     | 2025-01-15 |             353 |
+| 5310753659063115 | Kathleen  | Coughan      | 2026-09-20 |             112 |
+| 8573058368351374 | Aubine    | Imason       | 2027-11-14 |             454 |
+| 3019376373283762 | Swen      | Outram       | 2024-04-22 |             111 |
+|  814679076688642 | Karlis    | Thornebarrow | 2024-03-22 |             343 |
+| 9074574341267645 | Winny     | Turbitt      | 2026-01-09 |             644 |
+|  978654321234567 | Mel       | Shotboulte   | 2024-05-20 |             345 |
+| 6543217890091287 | Eilis     | Colerick     | 2026-01-10 |             222 |
+| 3457891290457855 | Gibby     | Hussy        | 2024-05-12 |             775 |
+| 1468655489099075 | Lindi     | Hambrook     | 2028-12-12 |             123 |
+| 1346789655467454 | Mireielle | Mayell       | 2025-11-12 |             233 |
+| 6907564563632264 | Prescott  | Todor        | 2024-11-09 |             344 |
+| 807060504030201  | Kat       | Tumility     | 2026-09-07 |             760 |
+| 1265545543779875 | Pip       | Dahmel       | 2027-10-12 |             213 |
+| 6758530593103943 | Tersina   | Porkiss      | 2024-05-12 |             543 |
+| 2304956079469457 | Veradis   | Enns         | 2027-10-12 |             768 |
+| 1990293458690494 | Terry     | Robjents     | 2027-11-14 |             765 |
+| 3945876940643229 | Normie    | Mangeon      | 2024-05-12 |              90 |
+| 1984965703685745 | Papageno  | Lambart      | 2026-01-10 |             988 |
+| 3958497575049684 | Adore     | Brash        | 2026-01-10 |             545 |
+| 9409685693059495 | Sharona   | McGillecole  | 2027-10-12 |             245 |
+| 5079556839687596 | Edgardo   | Franzen      | 2027-10-12 |             785 |
+| 1234567890981235 | Richart   | Redhouse     | 2025-11-09 |             975 |
+| 2132345465433535 | Clarette  | Jolliff      | 2024-01-02 |             874 |
+| 9909999998765555 | Augustin  | Brookbank    | 2024-12-12 |             540 |
+| 9000008776655555 | Silvain   | Haquard      | 2027-10-12 |             210 |
+| 2222111133334536 | Marleah   | Trammel      | 2026-01-10 |             321 |
+| 6788877544598312 | Hendrika  | Gonzalez     | 2024-11-09 |             541 |
+| 9990876553435674 | Daffie    | Hoy          | 2027-11-14 |             890 |
+| 1344543478543364 | Mariana   | Allan        | 2025-03-01 |             156 |
+| 1344577893477535 | Clary     | Woodham      | 2027-11-14 |             444 |
+| 5566722244113464 | Dougie    | Gerold       | 2025-11-12 |             101 |
+| 4545671245435436 | Malvina   | Loney        | 2026-12-26 |             555 |
+| 5437653123456545 | Millard   | Stiegers     | 2026-11-25 |             972 |
+| 4654554545455645 | Ermina    | Hurich       | 2025-12-13 |             817 |
+| 1121212342454565 | Anastasie | Amery        | 2026-01-09 |             214 |
+| 8787865645453444 | Alexandr  | Crowcroft    | 2024-10-15 |             314 |
+| 4445454546765634 | North     | MacShirie    | 2026-01-09 |             354 |
+| 1235545645466909 | Shari     | Drennan      | 2024-12-12 |             675 |
+| 8887655553432323 | Brigitte  | Ealam        | 2024-11-09 |             200 |
+| 9099890908766554 | Oralee    | Zecchi       | 2025-12-13 |             888 |
+| 2123445452255643 | Hernando  | Cafferty     | 2025-12-13 |             642 |
+| 4433356275443111 | Darda     | Moffet       | 2025-12-13 |             211 |
+| 1267893322223343 | Joshuah   | Fennessy     | 2026-01-10 |             313 |
+| 9009876543211111 | Donny     | Ivanaev      | 2024-11-09 |             414 |
+| 1688877754433221 | Forester  | McSharry     | 2024-11-09 |             514 |
+| 7787654332565586 | Marlin    | Jeaneau      | 2026-01-10 |             627 |
+| 2948437384939503 | Gerrilee  | Tate         | 2026-01-10 |             495 |
+| 9458475483984857 | Kerby     | Mussington   | 2026-01-10 |             493 |
+| 3395838573854940 | Felicia   | Beveredge    | 2026-01-10 |             134 |
+| 2233159584694865 | Obie      | Jeanet       | 2026-01-10 |             945 |
+| 2233149584757485 | Dorie     | Poleye       | 2026-01-10 |             120 |
+| 2233496858486496 | Mike      | Gobeaux      | 2026-01-10 |             128 |
+| 2233110394855849 | Ingelbert | Tyrone       | 2026-01-10 |             127 |
+| 2233059495938674 | Fran      | Loads        | 2026-01-10 |             126 |
+| 2233496865658930 | Farlee    | Flahy        | 2026-01-10 |             125 |
+| 2233102938457385 | Patton    | Kobierski    | 2026-01-10 |             124 |
+| 5533585865940345 | Rodolph   | Glidden      | 2026-01-10 |             901 |
+| 5533102945885545 | Erin      | Isaacson     | 2026-01-10 |             129 |
+| 5533304958495453 | Penny     | Vezey        | 2026-01-10 |             001 |
+| 6633459686504509 | Rey       | Anglim       | 2026-01-10 |             002 |
+| 6336584456949584 | Graehme   | Maylard      | 2026-01-10 |             003 |
+| 6633405948395855 | Ario      | Covet        | 2026-01-10 |             004 |
++------------------+-----------+--------------+------------+-----------------+
+
+
+
+
+FOR ETHICAL REAONS, LETS SEE OUR RESIDENTS USERNAME AND PASSWORDS
+
+SELECT Username, Password FROM residentowner;
++-------------+------------------+
+| Username    | Password         |
++-------------+------------------+
+| Ermina      | JAcket3          |
+| 1025        | 1025J            |
+| Isaacson    | grabI2!          |
+| 1265        | GREEWQR          |
+| Graehme     | treq24@          |
+| Gobeaux     | g063@            |
+| 1775        | #trellu9         |
+| 2599        | trooper1         |
+| 2606        | ffACCJT*3        |
+| Gerrilee2   | hGerr11          |
+| Mussington1 | Letsgrew1        |
+| Stiegers    | Stieg48          |
+| Beveredge   | ieaTre1          |
+| RodolphGl   | Rodo1            |
+| Ingelbert   | artingelber      |
+| Jeanet      | Jean33           |
+| Tumility    | timTimq1         |
+| 6909        | aTthe09@         |
+| Imason      | THREEQ11         |
+| 07510       | 08dfhhehsqwr     |
+| Mireielle   | !MirgoGo4        |
+| 09975       | drentre          |
+| 9988        | @fFSGfdouy       |
+| Marlin56    | GOGTROM          |
+| Clarette    | Clarbest$1       |
+| 14806       | Dodomaboy4       |
+| Richart     | Ric@rt$1         |
+| 20000       | StorePassse2     |
+| Alexandr    | Alex2023         |
+| Karlis      | kgragopuraal     |
+| Brigitte    | 87hotnoy!        |
+| MelShotb    | Mel1996          |
+| Veradis299  | Vera563r4f!      |
+| Kathleen    | @letsgotr3       |
+| Prescott    | Afhuuytbf645!rbf |
+| Malvina     | mMaLvana12       |
+| Misti       | @dropecar1304!   |
+| 33953       | 33953lIbaol      |
+| AdoreBrash  | Brash21          |
+| G38321      | @dortqueirs1     |
+| Hernando    | mixpassyea       |
+| 41509       | fromtree22       |
+| 42000       | askmetyou4       |
+| Haquard001  | Haqu809          |
+| DaffieHoy   | Daffiee88        |
+| Hendrika001 | HenDrek1         |
+| Swen        | ewens123         |
+| Papageno    | Congoman4        |
+| Winny       | gGogoGo          |
+| Augustin    | AugUsT212        |
+| Eilis001    | Lettyellis04     |
+| 50340Rw     | 504letsgo!       |
+| Woodham     | Ashbtren12       |
+| 66462       | QWLL1            |
+| McGillecole | Mcgill875        |
+| 77542Jos    | getITOR          |
+| PipDahmel   | Pip!lEtatter     |
+| 84815       | Secretscr1       |
+| Donny       | press112         |
+| 90311       | wetyddh2         |
+| GibbyHu     | gGbiibbyyhuu     |
+| 93705       | Franzen01        |
+| Tersina     | 123!Terinsa      |
+| 99130c      | hardtocrack      |
++-------------+------------------+
+
+
+
+
+--THEIR'S ALOT OF SPONSORS SPONSORING THESE RESIDENTS, LETS SEE THE NAME OF THESE SPONSORS,
+--WE MAY NEED TO GET MORE SPONSORS
+mysql> SELECT DISTINCT SponsorName FROM Sponsor;
++-------------------+
+| SponsorName       |
++-------------------+
+| NSA               |
+| World Travel Visa |
+| CGI               |
++-------------------+
+
+
+
+--LETS SEE HOW MANY RESIDENTS ACCEPTED THE CHOICE TO RENT OUR CARS
++---------------+-------+----------+------+----------+-----------+----------+------------+---------+
+| carassignedID | ResId | Accepted | Year | CarModel | CarMake_T | CarColor | Fuel_Grade | CarType |
++---------------+-------+----------+------+----------+-----------+----------+------------+---------+
+|          2220 | 38321 | Yes      | 2019 | Toyota   | Camry     | Black    | 85         | Sedan   |
+|          2221 | 32014 | Yes      | 2022 | Dodge    | Charger   | Black    | 93         | Sedan   |
+|          2222 | 30161 | Yes      | 2018 | Toyota   | Camry     | Silver   | 85         | Sedan   |
+|          2223 |  7024 | Yes      | 2019 | Toyota   | Camry     | Black    | 85         | Sedan   |
+|          2225 | 21243 | Yes      | 2018 | Buik     | Lacrosse  | Silver   | 85         | Sedan   |
+|          2226 | 28646 | Yes      | 2019 | Toyota   | Camry     | Black    | 85         | Sedan   |
+|          2227 | 56979 | Yes      | 2020 | Dodge    | Charger   | Silver   | 93         | Sedan   |
+|          2228 | 90569 | Yes      | 2020 | Dodge    | Charger   | Silver   | 93         | Sedan   |
+|          2229 | 84815 | Yes      | 2018 | Buik     | Lacrosse  | Silver   | 85         | Sedan   |
+|          2230 |  8374 | Yes      | 2019 | Toyota   | Camry     | Black    | 85         | Sedan   |
+|          2231 | 31596 | Yes      | 2020 | Dodge    | Charger   | Silver   | 93         | Sedan   |
+|          2342 | 15123 | Yes      | 2019 | Toyota   | Camry     | Black    | 85         | Sedan   |
+|          2344 | 55740 | Yes      | 2019 | Toyota   | Camry     | Black    | 85         | Sedan   |
+|          2346 | 65459 | Yes      | 2020 | Dodge    | Charger   | Silver   | 93         | Sedan   |
+|          2350 | 65748 | Yes      | 2020 | Dodge    | Charger   | Silver   | 93         | Sedan   |
+|          2352 | 31690 | Yes      | 2019 | Toyota   | Camry     | Black    | 85         | Sedan   |
+|          2354 |   499 | Yes      | 2019 | Toyota   | Camry     | Black    | 85         | Sedan   |
+|          2357 | 42000 | Yes      | 2020 | Dodge    | Charger   | Silver   | 93         | Sedan   |
+|          2359 | 24566 | Yes      | 2020 | Dodge    | Charger   | Silver   | 93         | Sedan   |
+|          2360 | 41509 | Yes      | 2019 | Toyota   | Camry     | Black    | 85         | Sedan   |
+|          2362 | 99130 | Yes      | 2019 | Toyota   | Camry     | Black    | 85         | Sedan   |
+|          2363 | 77542 | Yes      | 2020 | Dodge    | Charger   | Silver   | 93         | Sedan   |
+|          2365 | 66462 | Yes      | 2020 | Dodge    | Charger   | Silver   | 93         | Sedan   |
+|          2367 |  2800 | Yes      | 2020 | Dodge    | Charger   | Silver   | 93         | Sedan   |
+|          2376 |  1775 | Yes      | 2020 | Dodge    | Charger   | Silver   | 93         | Sedan   |
+|          2378 |  1198 | Yes      | 2020 | Dodge    | Charger   | Silver   | 93         | Sedan   |
+|          2382 |  9988 | Yes      | 2020 | Dodge    | Charger   | Silver   | 93         | Sedan   |
++---------------+-------+----------+------+----------+-----------+----------+------------+---------+
+
+
+
+
+-- WHAT RESIDENTS OWN OUR CHARGERS AND WHAT YEAR ARE THEY ?
+mysql> SELECT ResId FROM carassigned WHERE CarMake_T = 'Charger';
++-------+------+
+| ResId | Year |
++-------+------+
+| 32014 | 2022 |
+| 50746 | 2020 |
+| 56979 | 2020 |
+| 90569 | 2020 |
+| 31596 | 2020 |
+| 65459 | 2020 |
+| 65748 | 2020 |
+| 42000 | 2020 |
+| 24566 | 2020 |
+| 77542 | 2020 |
+| 66462 | 2020 |
+|  2800 | 2020 |
+|  4347 | 2020 |
+|  5002 | 2020 |
+|  1775 | 2020 |
+|  4899 | 2020 |
+|  1198 | 2020 |
+|  2599 | 2020 |
+|  9988 | 2020 |
++-------+------+
+
+
+
+
+-- WE RECIEVED A TIP ABOUT RESIDENT WITH THE ID NUMBER 5002 WHO OWNS OUR CHARGER,
+-- WE RECIEVED A NOTE THAT THEIR WAS AN ACCIDENT INVOLVING RESIDENT
+-- 5002 AND WE THINK THEY ARE TRYING TO HIDE IT FROM US. WHAT NAME 
+-- IS RESIDENT 5002? ALSO, WE MAY NEED TO GET INFORMATION TO CONTACT
+-- THEM ABOUT THIS SITUATION. 
+
+
+mysql> SELECT FirstName, LastName ,House_Number,Street,City FROM address WHERE ResId = 5002;
++-----------+----------+--------------+-------------+---------------+
+| FirstName | LastName | House_Number | Street      | City          |
++-----------+----------+--------------+-------------+---------------+
+| Ingelbert | Tyrone   |         9046 | Mits Street | Orange County |
++-----------+----------+--------------+-------------+---------------+
+-- OK! NOW WE KNOW WHO IS HIDING BEHIND THIS ACCIDENT !
+
+
+
+
+
+
+-- LETS LOOK AT THE OUR RESIDENT'S NAME AND SOCIAL SECURITY NUMBER SO WE CAN GIVE
+-- TO THE NSA 
+
++-----------+--------------+------------------------+
+| FirstName | LastName     | Social_Security_Number |
++-----------+--------------+------------------------+
+| Ermina    | Hurich       |             1981953123 |
+| Dorie     | Poleye       |             9794178130 |
+| Erin      | Isaacson     |             2693682664 |
+| Penny     | Vezey        |             6906923418 |
+| Graehme   | Maylard      |             8381663365 |
+| Mike      | Gobeaux      |             4501670706 |
+| Patton    | Kobierski    |             9973146740 |
+| Rey       | Anglim       |             3736136599 |
+| Fran      | Loads        |             9255972104 |
+| Gerrilee  | Tate         |             2542511228 |
+| Kerby     | Mussington   |             9819588828 |
+| Millard   | Stiegers     |             1914083977 |
+| Felicia   | Beveredge    |             1894090074 |
+| Rodolph   | Glidden      |             4441789229 |
+| Ingelbert | Tyrone       |             4959266342 |
+| Obie      | Jeanet       |             3864073294 |
+| Kat       | Tumility     |             6465409716 |
+| Farlee    | Flahy        |             4265010392 |
+| Aubine    | Imason       |             7633309884 |
+| Mariana   | Allan        |             4373188445 |
+| Mireielle | Mayell       |             3244156226 |
+| Dougie    | Gerold       |             8616692455 |
+| Ario      | Covet        |             7093060343 |
+| Marlin    | Jeaneau      |             9874622731 |
+| Clarette  | Jolliff      |             2117055594 |
+| Normie    | Mangeon      |             2281464826 |
+| Richart   | Redhouse     |             3429080003 |
+| Anastasie | Amery        |             1806063297 |
+| Alexandr  | Crowcroft    |             9232839377 |
+| Karlis    | Thornebarrow |             3197500170 |
+| Brigitte  | Ealam        |             7987980157 |
+| Mel       | Shotboulte   |             6006394285 |
+| Veradis   | Enns         |             8988003918 |
+| Kathleen  | Coughan      |             9979606668 |
+| Prescott  | Todor        |             6032617498 |
+| Malvina   | Loney        |             7856458833 |
+| Misti     | Lacelett     |             3237873622 |
+| Terry     | Robjents     |             5132908585 |
+| Adore     | Brash        |             3325129405 |
+| Scott     | Duckett      |             6438042530 |
+| Hernando  | Cafferty     |             8796831119 |
+| Oralee    | Zecchi       |             8645260161 |
+| North     | MacShirie    |             1811238320 |
+| Silvain   | Haquard      |             7127169250 |
+| Daffie    | Hoy          |             3617560871 |
+| Hendrika  | Gonzalez     |             4243990919 |
+| Swen      | Outram       |             9821203406 |
+| Papageno  | Lambart      |             9177706783 |
+| Winny     | Turbitt      |             1402440015 |
+| Augustin  | Brookbank    |             3455729935 |
+| Eilis     | Colerick     |             7398927694 |
+| Marleah   | Trammel      |             7731332085 |
+| Clary     | Woodham      |             6193206584 |
+| Forester  | McSharry     |             6524123846 |
+| Sharona   | McGillecole  |             5871531665 |
+| Joshuah   | Fennessy     |             9408686181 |
+| Pip       | Dahmel       |             2898914415 |
+| Lindi     | Hambrook     |             7815086646 |
+| Donny     | Ivanaev      |             8225729883 |
+| Shari     | Drennan      |             6567168380 |
+| Gibby     | Hussy        |             5409382652 |
+| Edgardo   | Franzen      |             8519205140 |
+| Tersina   | Porkiss      |             6418578523 |
+| Darda     | Moffet       |             6863400622 |
++-----------+--------------+------------------------+
+
+
+
+JUST CURIOUS, HOW MANY VISA WORKERS ARE FROM LIBERIA, AFRICA?
+
+mysql> SELECT FirstName, LastName FROM  residentowner WHERE Birthcountry ='Liberia';
++-----------+-----------+
+| FirstName | LastName  |
++-----------+-----------+
+| Obie      | Jeanet    |
+| Richart   | Redhouse  |
+| Kathleen  | Coughan   |
+| Terry     | Robjents  |
+| North     | MacShirie |
+| Silvain   | Haquard   |
+| Shari     | Drennan   |
++-----------+-----------+
