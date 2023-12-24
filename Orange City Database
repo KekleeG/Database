@@ -19,7 +19,7 @@
 -- on a piece of paper to enter into the database later on after lunch.
 -- Password Policy ; Password accetped only if no one else has it.
 
---Now entering database;
+--Now entering database; 
 
 
 CREATE TABLE residentowner (
