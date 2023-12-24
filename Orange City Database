@@ -1,0 +1,386 @@
+
+-- Welcome to New Orange City, This is a city that only accepts individuals
+-- that are on work visa. This new built city is partnering with the Government
+-- to help work-visa residents with their living where they will be given a 
+-- house and a car. In order to recieve and keep a vehicle, resident must pay
+-- an extra $450 a month for the vehicle and Payment method will only be credit 
+-- or debit card. Resident must pay $800 a month for rent to Orange City Front 
+-- Office and payment method will only be credit or debit card. Data regarding 
+-- resident will be tracked and kept secured for confidentaility such as SSN,
+-- Card information etc. Each resident will need to connect with a sponsor to
+-- help them with any questions and support them throughout the living process. 
+
+-- If you are looking at this database, that means you have been granted secured 
+-- acess to look at highly sensative data. As time goes on, data inside of this
+-- database will be mixed with cryptogrphy and updated with it just incase this 
+-- code gets in the hands of an unauthorized user. 
+-- Data Copying = It is against company policy to copy down resident data
+-- outside of database for example, writting down resident Social Security Number
+-- on a piece of paper to enter into the database later on after lunch.
+
+
+
+
+CREATE TABLE residentowner (
+    ResId                        NUMERIC (5) NOT NULL UNIQUE,
+    FirstName                    VARCHAR(20) NOT NULL,
+    LastName                     VARCHAR(20) NOT NULL,
+    Social_Security_Number       NUMERIC(20) NOT NULL UNIQUE,
+    PhoneNumber                  NUMERIC(20) NOT NULL,
+    Email                        VARCHAR(50) NOT NULL,
+    Birthday                     DATE NOT NULL,
+    Birthcountry                 VARCHAR(50) NOT NULL,
+    Birthcity                    VARCHAR(50) NOT NULL,
+    Gender                       VARCHAR(7)  NOT NULL
+ );
+
+
+
+
+
+
+ CREATE TABLE address (
+   AddressID      NUMERIC(5) NOT NULL UNIQUE,
+   ResId          NUMERIC(5) NOT NULL UNIQUE,
+   FirstName      VARCHAR(20) NOT NULL,
+   LastName       VARCHAR(20) NOT NULL,
+   House_Number   NUMERIC(7) NOT NULL,
+   Street         VARCHAR(20) NOT NULL,
+   City           VARCHAR(20) NOT NULL,
+   CONSTRAINT PK_address PRIMARY KEY (AddressID),
+   FOREIGN KEY (ResId) REFERENCES residentowner (ResId)
+ );
+
+
+
+ CREATE TABLE carassigned (
+   carassignedID          NUMERIC(5) NOT NULL UNIQUE,
+   ResId                  NUMERIC(5) NOT NULL UNIQUE,
+   Accepted               VARCHAR(6)  NOT NULL,
+   Year                   NUMERIC(5) NOT NULL,
+   CarModel               VARCHAR(20) NOT NULL,
+   CarMake_T              VARCHAR(20) NOT NULL,
+   CarColor               VARCHAR(20) NOT NULL,
+   Fuel_Grade             VARCHAR(20) NOT NULL,
+   CarType                VARCHAR(20) NOT NULL,
+   CONSTRAINT PK_carassigned PRIMARY KEY(carassignedID),
+   FOREIGN KEY  (ResId) REFERENCES residentowner(ResId)
+ );
+
+
+
+CREATE TABLE Job(
+JobID                    NUMERIC(5) NOT NULL UNIQUE,
+ResId                    NUMERIC(5) NOT NULL UNIQUE,
+Jobname                  VARCHAR(20) NOT NULL,
+Jobphone                 VARCHAR(20) NOT NULL,
+Managername              VARCHAR(20) NOT NULL,
+Managerphone             VARCHAR(20) NOT NULL,
+Manageremail             VARCHAR(20) NOT NULL,
+CONSTRAINT PK_job PRIMARY KEY(JobID),
+FOREIGN KEY  (ResId) REFERENCES residentowner(ResId)
+
+);
+
+
+CREATE TABLE FrontOffice(
+  FrontID                    NUMERIC(5) NOT NULL UNIQUE,
+  ResId                      NUMERIC(5) NOT NULL UNIQUE,
+
+  CONSTRAINT PK_FrontOffice PRIMARY KEY(FrontID),
+  FOREIGN KEY  (ResId) REFERENCES residentowner(ResId)
+
+
+);
+
+
+
+CREATE TABLE Payment (
+  PID                    NUMERIC(5) NOT NULL UNIQUE,
+  ResId                  NUMERIC(5) NOT NULL UNIQUE,
+  FrontID                NUMERIC(5) NOT NULL UNIQUE,
+  Method                 VARCHAR(14) NOT NULL,
+  Firstname              VARCHAR(30) NOT NULL,
+  Lastname               VARCHAR(30) NOT NULL,
+  Cardnumber             NUMERIC(17) NOT NULL UNIQUE,
+  Expdate                DATE NOT NULL ,
+  Security_number        NUMERIC(5) NOT NULL UNIQUE,
+  Amount                 DECIMAL(7) NOT NULL,
+
+  CONSTRAINT PK_Payment PRIMARY KEY(PID),
+  FOREIGN KEY  (ResId) REFERENCES residentowner(ResId),
+
+  FOREIGN KEY  (FrontID) REFERENCES FrontOffice(FrontID)
+
+);
+
+
+
+
+
+CREATE TABLE Sponsor
+( SponsorID         NUMERIC(4) NOT NULL UNIQUE,
+ResId               NUMERIC(5) NOT NULL UNIQUE,
+SponsorName         VARCHAR(35) NOT NULL,
+SponsorEmail       VARCHAR(30) NOT NULL,
+SponsorNumber      NUMERIC(12) NOT NULL,
+CONSTRAINT PK_SPONSOR PRIMARY KEY(SponsorID),
+FOREIGN KEY  (ResId) REFERENCES residentowner(ResId)
+
+);
+
+
+
+
+
+
+
+
+   Birthcountry               
+    Birthcontinent  
+
+
+  INSERT INTO residentowner VALUES
+  (38321, 'Scott',       'Duckett',     6438042530, 5032412866,    'sduckett0@harvard.edu',     '1983-01-10',   'Gambia',        'Banjul',     'Male'),
+  (32014, 'Misti',       'Lacelett',    3237873622, 4228393226,    'mlacelett1@blogspot.com',   '2023-10-12',   'Brazzaville',   'Congo',      'Female'),
+  (30161, 'Kathleen',    'Coughan',     9979606668, 3505496348,    'kcoughan2@bigcartel.com',   '2022-12-24',   'Liberia',       'Africa',    'Female'),
+  (07024, 'Aubine',      'Imason',      7633309884, 7273420758,    'aimason3@google.com',       '2023-01-19',   'Guinea',        'Conakry',    'Female'),
+
+
+  (50746, 'Swen',        'Outram',       9821203406, 5107730342,   'soutram4@tumblr.com',      '2023-12-01',    'South Africa', 'Cape Town',   'Male'),
+  (21243, 'Karlis',      'Thornebarrow', 3197500170, 4578175942,   'kthornebarrow5@go.com',    '2023-10-20',    'Sierra Leone', 'Africa,       'Male'),
+  (55711, 'Winny',       'Turbitt',      1402440015, 7208529090,   'wturbitt6@globo.com',      '2023-03-25',    'Zimbabwe',     'Harare',      'Male'),
+  (28646, 'Mel',         'Shotboulte',   6006394285, 7328876412,   'mshotboulte7@g.co',        '2023-02-28',    'Sierra Leone', 'Freetown',    'Male'),
+  (56979, 'Eilis',       'Colerick',     7398927694, 6918707363,   'ecolerick8@bbc.co.uk',     '2023-10-06',    'South Sudan',  'Juba',        'Female'),
+
+
+(90569, 'Gibby',        'Hussy',        5409382652, 3005824955,   'ghussy9@360.cn',            '2023-10-31',    'Uganda',       'Kampala',     'Male'),
+(84815, 'Lindi',        'Hambrook',     7815086646, 6373039707,   'lhambrooka@twitter.com',    '2023-02-24',    'Sudan',        'Khartoum',    'Female'),
+(08374, 'Mireielle',    'Mayell',       3244156226, 4154596272,   'mmayellb@unc.edu',          '2023-11-27',    'Rwanda',       'Kigali',      'Female'),
+(31596, 'Prescott',     'Todor',        6032617498, 7496028083,   'ptodorc@cafepress.com',     '2023-04-04',    'Tanzania',     'Dodoma',      'Male'),
+(06635, 'Kat',          'Tumility',     6465409716, 3323124282,   'tumilityd@aboutads.com',    '2023-12-12',    'Congo',        'Brazzaville', 'Female'),
+(83040, 'Pip',          'Dahmel',       2898914415, 9238872868,   'pdahmele@list-manage.com',  '2023-07-29',    'Monrovia',     'Liberia',     'Male'),
+(97474, 'Tersina',      'Porkiss',      6418578523, 2061439406,   'tporkissf@gmail.com',       '2023-09-09',    'Nigeria',      'Abuja',       'Female'),
+(29951, 'Veradis',      'Enns',         8988003918, 7565685293,   'vennsg@lulu.com',           '2023-10-13',    'Congo',        'Brazzaville', 'Female'),
+
+
+(33953, 'Terry',        'Robjents',     5132908585, 5583848492,  'trobjentsh@aol.com',        '2023-05-04',     'Monrovia',    'Liberia',     'Female'),
+(14806, 'Normie',       'Mangeon',      2281464826, 2615849962,  'nmangeoni@yahoo.com',       '2023-02-07',     'Tanzania',    'Dodoma',      'Male'),
+(54535, 'Papageno',     'Lambart',      9177706783, 1031215689,  'plambartj@rambler.ru',      '2023-03-10',     'Guinea',      'Conakry',     'Male'),
+(36928, 'Adore',        'Brash',        3325129405, 3286552361,  'abrashk@shutterfly.com',    '2023-07-31',     'Gambia',      'Banjul',      'Female'),
+(75405, 'Sharona',      'McGillecole',  5871531665, 2653712987,  'smcgl@gmail.com',           '2023-04-16',     'Madagascar',  'Antananarivo','Female'),
+(93705, 'Edgardo',      'Franzen',      8519205140, 7164585249,  'efranzenm@ibm.com',         '2023-10-28',     'Congo',       'Brazzaville', 'Male');
+
+
+
+
+
+
+
+INSERT INTO address VALUES
+(98292, 38321, 'Scott',     'Duckett',        9028,   'Mits Street',      'Orange County'),
+(34953, 32014, 'Misti',     'Lacelett',       1034,   'Dennis Street',    'Orange County'),
+(30484, 30161, 'Kathleen',  'Coughan',        1830,   'Cascade Street',   'Orange County'),
+(87675, 07024, 'Aubine',    'Imason',         9029,   'Mits Street',      'Orange County'),
+(49583, 50746, 'Swen',      'Outram',         1035,   'Dennis Street',    'Orange County'),
+(49504, 21243, 'Karlis',    'Thornebarrow',   1831,   'Cascade Street',   'Orange County'),
+(12034, 55711, 'Winny',     'Turbitt',        9030,   'Mits Street',      'Orange County');
+
+INSERT INTO address VALUES
+(48347, 28646, 'Mel',       'Shotboulte', 1832,    'Cascade Street',   'Orange County'),
+(30594, 56979, 'Eilis',     'Colerick',   9031,    'Mits Street',      'Orange County'),
+(90303, 90569, 'Gibby',     'Hussy',      9032,    'Mits Street',      'Orange County'),
+(12352, 84815, 'Lindi',     'Hambrook',   1833,    'Cascade Street',   'Orange County'),
+(97545, 8374,  'Mireielle', 'Mayell',     1036,    'Dennis Street',    'Orange County'),
+(15664, 31596, 'Prescott',  'Todor',      9033,    'Mits Street',      'Orange County'),
+(23546, 6635,  'Kat',       'Tumility',   9034,    'Mits Street',      'Orange County'),
+(96369, 83040, 'Pip',       'Dahmel',     1037,   'Dennis Street',     'Orange County');
+
+INSERT INTO address VALUES
+  (78565,      97474,  'Tersina',    'Porkiss',        1834,    'Cascade Street',     'Orange County'),
+  (97546,      29951,  'Veradis',    'Enns' ,          1835,    'Cascade Street',     'Orange County'),
+  (68764,      33953,  'Terry',      'Robjents',       9035,    'Mits Street',        'Orange County'),
+  (90756,      14806,  'Normie',     'Mangeon',        1038,    'Dennis  Street' ,    'Orange County'),
+  (57445,      54535,  'Papageno',   'Lambart',        1039,    'Dennis  Street' ,    'Orange County'),
+  (67357,      36928,  'Adore',      'Brash',          9036,    'Mits Street',        'Orange County'),
+  (15335,      75405,  'Sharona',    'McGillecole',    9037,    'Mits Street',        'Orange County'),
+  (57555,      93705,  'Edgardo',    'Franzen',        1836,    'Cascade Street',     'Orange County');
+
+
+
+
+
+
+
+INSERT INTO carassigned VALUES
+(2220, 38321 , 'Yes', 2019, 'Toyota', 'Camry',   'Black',   85, 'Sedan' ),
+(2221, 32014 , 'Yes', 2022, 'Dodge',  'Charger', 'Black',   93, 'Sedan'),
+(2222, 30161 , 'Yes', 2018, 'Toyota', 'Camry',   'Silver',  85, 'Sedan'),
+(2223,  07024, 'Yes', 2019, 'Toyota', 'Camry',   'Black',   85, 'Sedan' ),
+(2224, 50746 ,' Yes', 2020, 'Dodge',  'Charger', 'Silver',  93, 'Sedan');
+
+INSERT INTO carassigned VALUES
+(2225, 21243 ,   'Yes',  2018,   'Buik',   'Lacrosse',   'Silver',   85, 'Sedan'),
+(2226, 28646 ,   'Yes',  2019,   'Toyota', 'Camry',      'Black',    85, 'Sedan' ),
+(2227, 56979 ,   'Yes',  2020,   'Dodge',  'Charger',    'Silver',   93, 'Sedan'),
+(2228, 90569 ,   'Yes',  2020,   'Dodge',  'Charger',    'Silver',   93, 'Sedan'),
+(2229, 84815 ,   'Yes',  2018,   'Buik',   'Lacrosse',   'Silver',   85, 'Sedan'),
+(2230, 08374,    'Yes',  2019,   'Toyota', 'Camry',      'Black',    85, 'Sedan'),
+(2231, 31596 ,   'Yes',  2020,   'Dodge',  'Charger',    'Silver',   93, 'Sedan');
+
+
+INSERT INTO carassigned VALUES
+(2332, 06635 , 'No ', 0 ,  '   ',     '   ',      '  ', 0   ,    '  '),
+(2333, 83040 , 'No ', 0 ,  '  ' ,     '   ',      '  ', 0   ,    '  '),
+(2334, 97474 , 'No ', 0 ,  '  ' ,     '   ',      '  ', 0   ,    '  ');
+
+
+INSERT INTO carassigned VALUES
+(2335,   29951,   'No ',  0 , '  ' ,     '   ',      '  ', 0   ,    '  ' ),
+(2336,   33953 ,  'No ',  0 , '  ' ,     '   ',      '  ', 0   ,    '  ' ),
+(2337 ,  14806 ,  'No ',  0 ,  '  ',     '   ',      '  ', 0   ,    '  ' ),
+(2338,   54535,   'No ',  0 ,  '  ',     '   ',      '  ', 0   ,    '  ' ),
+(2339 ,  36928 ,  'No ',  0 , '  ' ,     '   ',      '  ', 0   ,    '  ' ),
+(2340,   75405 ,  'No ',  0 , '  ' ,     '   ',      '  ', 0   ,    '  ' ),
+(2341,   93705 ,  'No ',  0 , '  ' ,     '   ',      '  ', 0   ,    '  ' );
+
+
+INSERT INTO Job VALUES
+(1000, 38321, 'Electrical Engineer', 9645436544,   'Madelon	Agget',         2648531196,   'magget0@yahoo.com'),
+(1002, 32014, 'School Teacher',      9645647643,   'Katharyn	Cutts',     	8457239241,  	'kcutts1@gmail.com'),
+(1003, 30161, 'School Teacher',      9645647643,	 'Mata	Deeks',         	4801495866,	  'mdeeks2@msn.com'),
+(1004, 07024, 'Nurse',               9646432754,   'Jorgan	Penhaleurack',	6123196391,	  'jpenhal3@gmail.com'),
+(1005, 50746, 'Scientist',           9643547649,   'Nissy	OSiaghail',     	1756161011, 	'nosiaghail4@mit.edu'),
+(1006, 21243, 'Nurse',               9641246780,   'Aida Edmenson',         7944687808,   'aedmen@gmail.com');
+
+INSERT INTO Job VALUES
+(1007, 55711, 'General Manager',     9647654612, 'Cecile	Stapford',     	4073896495,	    'cstapford6@gmail.com' ),
+(1008, 28646, 'School Teacher',      9645647643, 'Micki	Matuszinski',    	3092150179,   	'mmatski7@gmail.com' ),
+(1009, 56979, 'Construction',        9561463578, 'Iris Dee',              5634646498,     'iris@hmail.com'   ),
+(1010, 90569, 'Electrical Engineer', 9563487098, 'cain stee',             7643451245,     'cain@gmail.com'  ),
+(1011, 84815, 'Automotive Engineer', 9659741908, 'don ster',              8990851543,     'deaq@yahoo.com' ),
+(1012, 08374, 'Nurse',               9562674590, 'Micki	Matuszinski',	    3092150179,	    'mmaski7@yahoo.com'),
+(1013, 31596, 'School Teacher',      9645647643, 'Micki	Matuszinski',    	3092150179,	    'mmatnski7@yahoo.com'),
+(1014, 06635, 'General Manager',     9562165907, 'Lorettalorna	Eltone',	6608251131,	    'leltone8@gmail.com');
+
+
+INSERT INTO Job VALUES
+(1015, 83040,  'Automotive Engineer', 9561217836, 	'Iggie	Fishpoole',    	4428148809,	   'ifishpoole9@msn.com'),
+(1016, 97474,  'Salesman',            9560672775,   'Annadiane Allwell',  	9268672747,    'wella@msn.com' ),
+(1017, 29951,  'School Teacher',      9563591523,   'Cinda	Hing',        	4747816199,	   'chin@gmail.com'),
+(1018, 33953,  'Nurse',               9563512645,   'Lilla	Mahon',	        3609905230,	   'lmah@gmail.com' ),
+(1019, 14806,  'Salesman',            9569601643,   'Alexandr	Firsby',	    2186892174,	   'afird@wired.com' ),
+(1020, 54535,  'Automotive Engineer', 9659741908,   'Christa	Sleightholm',	3973420010,    'csleolme@aol.com'),
+(1021, 36928,  'Construction',        9568603472,   'Cosimo	Lacky',	        3561414930, 	 'clackyf@gmail.com' ),
+(1022, 75405,  'Salesman',            9569601643,   'Kaitlynn	Fancott',	    9444772317,	   'kfancottg@yahoo.com'),
+(1023, 93705,  'Nurse',               9561375098,   'Shae	Gillitt', 	      3432257198,    'sgilli@yahoo.com');
+
+
+
+INSERT INTO FrontOffice VALUES
+(1, 38321 ),
+(2, 32014 ),
+(3, 30161 ),
+(4, 07024 ),
+(5, 50746 ),
+(6, 21243 ),
+(7, 55711  ),
+(8, 28646  ),
+(9, 56979  ),
+(10,90569  ),
+(11, 84815 ),
+(12, 08374 ),
+(13, 31596 ),
+(14, 06635 ),
+(15, 83040 ),
+(16, 97474 ),
+(17, 29951 ),
+(18, 33953 ),
+(19, 14806 ),
+(20, 54535 ),
+(21, 36928 ),
+(22, 75405 ),
+(23, 93705 );
+
+
+
+
+
+
+
+
+
+INSERT INTO Payment VALUES
+(22, 38321,  1,   'Credit Card',    'Scott',     'Duckett',       1357924683579468,   '2026-01-10',   234,  1250.00),
+(23, 32014,  2,   'Debit Card',     'Misti',     'Lacelett',      5216484760008000,   '2025-01-15',   353,  1250.00),
+(24, 30161,  3,   'Debit Card',     'Kathleen',  'Coughan',       5310753659063115,   '2026-09-20',   112,  1250.00),
+(25, 07024 , 4,   'Debit Card',     'Aubine',    'Imason',        8573058368351374 ,  '2027-11-14',   454,  1250.00),
+(26, 50746,  5,   'Credit Card',    'Swen',      'Outram',        3019376373283762,   '2024-04-22',   111,  1250.00),
+(27, 21243,  6,   'Credit Card' ,   'Karlis',    'Thornebarrow',  0814679076688642 ,  '2024-03-22',   343,  1250.00),
+(28, 55711,  7,   'Debit Card',     'Winny',     'Turbitt',       9074574341267645 ,  '2026-01-09',   644,  1250.00),
+(29, 28646 , 8,   'Credit Card',    'Mel',       'Shotboulte',    0978654321234567 ,  '2024-05-20',   345,  1250.00),
+(30, 56979,  9,   'Credit Card' ,   'Eilis',     'Colerick',      6543217890091287 ,  '2026-01-10',   222,  1250.00),
+(31, 90569 , 10,  'Credit Card',    'Gibby',     'Hussy',         3457891290457855 ,  '2024-05-12',   775,  1250.00);
+
+
+
+
+
+INSERT INTO Payment VALUES
+(32, 84815, 11, 'Debit Card',  'Lindi', 'Hambrook', 1468655489099075, '2028-12-12', 123, 1250.00);
+
+INSERT INTO Payment VALUES
+(33, 08374, 12, 'Debit Card', 'Mireielle', 'Mayell', 1346789655467454, '2025-11-12', 233, 800.00);
+
+INSERT INTO Payment VALUES
+(34, 31596, 13, 'Credit Card', 'Prescott', 'Todor',        6907564563632264, '2024-11-09', 344, 800.00),
+(35, 06635, 14, 'Debit Card',  'Kat',      'Tumility',     0807060504030201, '2026-09-07', 760, 800.00),
+(36, 83040, 15, 'Debit Card',  'Pip',      'Dahmel',       1265545543779875, '2027-10-12', 213, 800.00),
+(37, 97474, 16, 'Credit Card', 'Tersina',  'Porkiss',      6758530593103943, '2024-05-12', 543, 800.00),
+(38, 29951, 17, 'Credit Card', 'Veradis',  'Enns',         2304956079469457, '2027-10-12', 768, 800.00),
+(39, 33953, 18, 'Debit Card',  'Terry',    'Robjents',     1990293458690494, '2027-11-14', 765, 800.00),
+(40, 14806, 19, 'Debit Card',  'Normie',   'Mangeon',      3945876940643229, '2024-05-12', 090, 800.00),
+(41, 54535, 20, 'Credit Card', 'Papageno', 'Lambart',      1984965703685745, '2026-01-10', 988, 800.00),
+(42, 36928, 21, 'Debit Card',  'Adore',    'Brash',        3958497575049684, '2026-01-10', 545, 800.00),
+(43, 75405, 22, 'Credit Card', 'Sharona',  'McGillecole',  9409685693059495, '2027-10-12', 245, 800.00),
+(44, 93705, 23, 'Debit Card',  'Edgardo',  'Franzen',      5079556839687596, '2027-10-12', 785, 800.00);
+
+
+
+
+
+
+INSERT INTO Sponsor VALUES
+(101,38321,    'Quamba',	   'jkealey0@yahoo.com',	      2778945857  ),
+(102,32014,    'Edgewire',	 'dpetruskevich1@hud.gov',	  3149535941  ),
+(103,30161,    'Flashdog',	 'gseccombe2@hud.gov',   	    1872144605  ),
+(104, 07024,   'Flashdog', 	 'fmcnelis3@yale.edu',   	    4327860572  ),
+(105, 50746,   'Quinu',  	   'djory4@google.ca'	,         3372619900  ),
+(106, 21243,   'Wordify', 	 'hcharker5@ovh.net'	,       2517359347  ),
+(107, 55711,   'Meetz',	     'sgaber6@51.com',        	  910501150   ),
+(108, 28646 ,  'Feedmix',	   'lstower8@privacy.gov.au'	, 4399778480  ),
+(109, 56979 ,  'Camido',	   'fpeddie9@paginegialle.it', 	6399896840  ),
+(110, 90569,   'Flashdog',	 'fmcnelis3@yale.edu',   	    4327860572  );
+
+
+
+
+INSERT INTO Sponsor VALUES
+(111, 84815 ,  'Flashdog',	'fmcnelis3@yale.edu',   	4327860572),
+(112, 08374,   'Meetz',	    'sgaber6@51.com',        	9105011508),
+(113, 31596,   'Edgewire',	'dpetruskevich1@hud.gov',	3149535941),
+(114, 06635,   'Edgewire',	'dpetruskevich1@hud.gov',	3149535949),
+(115, 83040,   'Flashdog',	'fmcnelis3@yale.edu',   	4327860572),
+(116, 97474,   'Flashdog',	'fmcnelis3@yale.edu',   	4327860572);
+
+INSERT INTO Sponsor VALUES
+(117, 29951,   'Meetz',	    'sgaber6@51.com',           	910501150),
+(118, 33953,   'Camido',	  'fpeddie9@paginegialle.it', 	6399896840),
+(119, 14806,   'Flashdog',	'fmcnelis3@yale.edu',       	4327860572),
+(120, 54535,   'Flashdog',	'fmcnelis3@yale.edu',   	    4327860572),
+(121, 36928 ,  'Feedmix',	  'lstower8@privacy.gov.au'	,   4399778480),
+(122, 75405,   'Feedmix',	  'lstower8@privacy.gov.au'	,   4399778480),
+(123, 93705 ,  'Camido',	  'fpeddie9@paginegialle.it', 	6399896840);
+
+
+
