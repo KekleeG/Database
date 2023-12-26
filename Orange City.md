@@ -1208,3 +1208,13 @@ mysql> SELECT FirstName, LastName FROM  residentowner WHERE Birthcountry ='Liber
 | Shari     | Drennan   |
 +-----------+-----------+
 7 rows in set 
+
+
+
+
+
+
+
+
+![Screen Shot 2023-12-24 at 3 18 42 AM](https://github.com/KekleeG/Database/assets/149440736/3c013453-3fc4-4cc9-949b-197e70b87e16)
+
