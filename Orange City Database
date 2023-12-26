@@ -1,23 +1,23 @@
 
 -- Welcome to New Orange City, This is a city that only accepts individuals
--- that are on A work visa. This new built city is partnering with the Government
+-- that is on A work visa. This newly built city is partnering with the Government
 -- to help work-visa residents with their living where they will be given a
--- house and a car. In order to recieve and keep a vehicle, resident must pay
+-- house and a car. To receive and keep a vehicle, the resident must pay
 -- an extra $450 a month for the vehicle and Payment method will only be credit
 -- or debit card. Resident must pay $800 a month for rent to Orange City Front
 -- Office and payment method will only be credit or debit card. Data regarding
--- resident will be tracked and kept secured for confidentaility such as SSN,
+-- resident will be tracked and kept secured for confidentiality such as SSN,
 -- Card information etc. Each resident will need to connect with a sponsor to
 -- help them with any questions and support them throughout the living process.
 
 -- If you are looking at this database, that means you have been granted secured
--- acess to look at highly sensative data. As time goes on, data inside of this
--- database will be mixed with cryptogrphy and updated with it just incase this
+-- access to look at highly sensitive data. As time goes on, data inside of this
+-- database will be mixed with cryptography and updated with it just in case this
 -- code gets in the hands of an unauthorized user.
 -- Data Copying = It is against company policy to copy down resident data
--- outside of database for example, writting down resident Social Security Number
+-- outside of the database, for example, writing down the resident Social Security Number
 -- on a piece of paper to enter into the database later on after lunch.
--- Password Policy ; Password accetped only if no one else has it.
+-- Password Policy; Password accepted only if no one else has it.
 
 --Now entering database; 
 
@@ -133,6 +133,18 @@ FOREIGN KEY  (ResId) REFERENCES residentowner(ResId)
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
   INSERT INTO residentowner VALUES
   (38321, 'Scott',       'Duckett',     6438042530, 5032412866,    'sduckett0@harvard.edu',     '1983-01-10',   'Gambia',        'Banjul',     'Male',   'G38321',   '@dortqueirs1'),
   (32014, 'Misti',       'Lacelett',    3237873622, 4228393226,    'mlacelett1@blogspot.com',   '1972-10-12',   'Brazzaville',   'Congo',      'Female', 'Misti',    '@dropecar1304!'),
@@ -143,21 +155,21 @@ FOREIGN KEY  (ResId) REFERENCES residentowner(ResId)
   (55711, 'Winny',       'Turbitt',      1402440015, 7208529090,   'wturbitt6@globo.com',      '1990-03-25',    'Zimbabwe',     'Harare',      'Male',   'Winny',    'gGogoGo'),
   (28646, 'Mel',         'Shotboulte',   6006394285, 7328876412,   'mshotboulte7@g.co',        '1983-02-28',    'Sierra Leone', 'Freetown',    'Male',   'MelShotb', 'Mel1996'),
   (56979, 'Eilis',       'Colerick',     7398927694, 6918707363,   'ecolerick8@bbc.co.uk',     '1972-10-06',    'South Sudan',  'Juba',        'Female', 'Eilis001', 'Lettyellis04'),
-(90569, 'Gibby',        'Hussy',        5409382652, 3005824955,   'ghussy9@360.cn',            '1972-10-31',    'Uganda',       'Kampala',     'Male',   'GibbyHu',    'gGbiibbyyhuu'),
-(84815, 'Lindi',        'Hambrook',     7815086646, 6373039707,   'lhambrooka@twitter.com',    '1990-02-24',    'Sudan',        'Khartoum',    'Female', '84815',      'Secretscr1'),
-(08374, 'Mireielle',    'Mayell',       3244156226, 4154596272,   'mmayellb@unc.edu',          '1983-11-27',    'Rwanda',       'Kigali',      'Female', 'Mireielle',  '!MirgoGo4'),
-(31596, 'Prescott',     'Todor',        6032617498, 7496028083,   'ptodorc@cafepress.com',     '1972-04-04',    'Tanzania',     'Dodoma',      'Male',   'Prescott',   'Afhuuytbf645!rbf'),
-(06635, 'Kat',          'Tumility',     6465409716, 3323124282,   'tumilityd@aboutads.com',    '1983-12-12',    'Congo',        'Brazzaville', 'Female', 'Tumility',   'timTimq1'),
-(83040, 'Pip',          'Dahmel',       2898914415, 9238872868,   'pdahmele@list-manage.com',  '1990-07-29',    'Monrovia',     'Liberia',     'Male' ,  'PipDahmel',  'Pip!lEtatter'),
-(97474, 'Tersina',      'Porkiss',      6418578523, 2061439406,   'tporkissf@gmail.com',       '1983-09-09',    'Nigeria',      'Abuja',       'Female', 'Tersina',    '123!Terinsa'),
-(29951, 'Veradis',      'Enns',         8988003918, 7565685293,   'vennsg@lulu.com',           '1979-10-13',    'Congo',        'Brazzaville', 'Female', 'Veradis299', 'Vera563r4f!'),
-(33953, 'Terry',        'Robjents',     5132908585, 5583848492,  'trobjentsh@aol.com',        '1983-05-04',     'Monrovia',      'Liberia',    'Female',  '33953',      '33953lIbaol'),
-(14806, 'Normie',       'Mangeon',      2281464826, 2615849962,  'nmangeoni@yahoo.com',       '1979-02-07',     'Tanzania',    'Dodoma',      'Male',    '14806',      'Dodomaboy4'),
-(54535, 'Papageno',     'Lambart',      9177706783, 1031215689,  'plambartj@rambler.ru',      '1983-03-10',     'Guinea',      'Conakry',     'Male',    'Papageno',   'Congoman4'),
-(36928, 'Adore',        'Brash',        3325129405, 3286552361,  'abrashk@shutterfly.com',    '1990-07-31',     'Gambia',      'Banjul',      'Female',  'AdoreBrash', 'Brash21'),
-(75405, 'Sharona',      'McGillecole',  5871531665, 2653712987,  'smcgl@gmail.com',           '1979-04-16',     'Madagascar',  'Antananarivo','Female',  'McGillecole','Mcgill875'),
-(93705, 'Edgardo',      'Franzen',      8519205140, 7164585249,  'efranzenm@ibm.com',         '1983-10-28',     'Congo',       'Brazzaville', 'Male',    '93705',      'Franzen01'),
-(15123, 'Richart',      'Redhouse',     3429080003, 5376887020,  'rredhouse0@ibm.com',        '1990-12-02',     'Monrovia',      'Liberia' ,   'Male',    'Richart',    'Ric@rt$1');
+  (90569, 'Gibby',        'Hussy',        5409382652, 3005824955,   'ghussy9@360.cn',            '1972-10-31',    'Uganda',       'Kampala',     'Male',   'GibbyHu',    'gGbiibbyyhuu'),
+  (84815, 'Lindi',        'Hambrook',     7815086646, 6373039707,   'lhambrooka@twitter.com',    '1990-02-24',    'Sudan',        'Khartoum',    'Female', '84815',      'Secretscr1'),
+  (08374, 'Mireielle',    'Mayell',       3244156226, 4154596272,   'mmayellb@unc.edu',          '1983-11-27',    'Rwanda',       'Kigali',      'Female', 'Mireielle',  '!MirgoGo4'),
+  (31596, 'Prescott',     'Todor',        6032617498, 7496028083,   'ptodorc@cafepress.com',     '1972-04-04',    'Tanzania',     'Dodoma',      'Male',   'Prescott',   'Afhuuytbf645!rbf'),
+  (06635, 'Kat',          'Tumility',     6465409716, 3323124282,   'tumilityd@aboutads.com',    '1983-12-12',    'Congo',        'Brazzaville', 'Female', 'Tumility',   'timTimq1'),
+  (83040, 'Pip',          'Dahmel',       2898914415, 9238872868,   'pdahmele@list-manage.com',  '1990-07-29',    'Monrovia',     'Liberia',     'Male' ,  'PipDahmel',  'Pip!lEtatter'),
+  (97474, 'Tersina',      'Porkiss',      6418578523, 2061439406,   'tporkissf@gmail.com',       '1983-09-09',    'Nigeria',      'Abuja',       'Female', 'Tersina',    '123!Terinsa'),
+  (29951, 'Veradis',      'Enns',         8988003918, 7565685293,   'vennsg@lulu.com',           '1979-10-13',    'Congo',        'Brazzaville', 'Female', 'Veradis299', 'Vera563r4f!'),
+  (33953, 'Terry',        'Robjents',     5132908585, 5583848492,  'trobjentsh@aol.com',        '1983-05-04',     'Monrovia',      'Liberia',    'Female',  '33953',      '33953lIbaol'),
+  (14806, 'Normie',       'Mangeon',      2281464826, 2615849962,  'nmangeoni@yahoo.com',       '1979-02-07',     'Tanzania',    'Dodoma',      'Male',    '14806',      'Dodomaboy4'),
+  (54535, 'Papageno',     'Lambart',      9177706783, 1031215689,  'plambartj@rambler.ru',      '1983-03-10',     'Guinea',      'Conakry',     'Male',    'Papageno',   'Congoman4'),
+  (36928, 'Adore',        'Brash',        3325129405, 3286552361,  'abrashk@shutterfly.com',    '1990-07-31',     'Gambia',      'Banjul',      'Female',  'AdoreBrash', 'Brash21'),
+  (75405, 'Sharona',      'McGillecole',  5871531665, 2653712987,  'smcgl@gmail.com',           '1979-04-16',     'Madagascar',  'Antananarivo','Female',  'McGillecole','Mcgill875'),
+  (93705, 'Edgardo',      'Franzen',      8519205140, 7164585249,  'efranzenm@ibm.com',         '1983-10-28',     'Congo',       'Brazzaville', 'Male',    '93705',      'Franzen01'),
+  (15123, 'Richart',      'Redhouse',     3429080003, 5376887020,  'rredhouse0@ibm.com',        '1990-12-02',     'Monrovia',      'Liberia' ,   'Male',    'Richart',    'Ric@rt$1');
 
 
 
