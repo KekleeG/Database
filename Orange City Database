@@ -723,75 +723,77 @@ INSERT INTO Sponsor VALUES
 
  
 -- DISPLAY EVERY RESIDENTS PERSONAL INFORMATION ALONG WITH THEIR USERNAME AND PASSWORD
-mysql>  select FirstName, LastName,Gender, Social_Security_Number,Username,Password from  residentowner ;
-+-----------+--------------+--------+------------------------+-------------+------------------+
-| FirstName | LastName     | Gender | Social_Security_Number | Username    | Password         |
-+-----------+--------------+--------+------------------------+-------------+------------------+
-| Ermina    | Hurich       | Female |             1981953123 | Ermina      | JAcket3          |
-| Dorie     | Poleye       | Female |             9794178130 | 1025        | 1025J            |
-| Erin      | Isaacson     | Male   |             2693682664 | Isaacson    | grabI2!          |
-| Penny     | Vezey        | Male   |             6906923418 | 1265        | GREEWQR          |
-| Graehme   | Maylard      | Male   |             8381663365 | Graehme     | treq24@          |
-| Mike      | Gobeaux      | Male   |             4501670706 | Gobeaux     | g063@            |
-| Patton    | Kobierski    | Male   |             9973146740 | 1775        | #trellu9         |
-| Rey       | Anglim       | Male   |             3736136599 | 2599        | trooper1         |
-| Fran      | Loads        | Male   |             9255972104 | 2606        | ffACCJT*3        |
-| Gerrilee  | Tate         | Male   |             2542511228 | Gerrilee2   | hGerr11          |
-| Kerby     | Mussington   | Female |             9819588828 | Mussington1 | Letsgrew1        |
-| Millard   | Stiegers     | Male   |             1914083977 | Stiegers    | Stieg48          |
-| Felicia   | Beveredge    | Male   |             1894090074 | Beveredge   | ieaTre1          |
-| Rodolph   | Glidden      | Male   |             4441789229 | RodolphGl   | Rodo1            |
-| Ingelbert | Tyrone       | Male   |             4959266342 | Ingelbert   | artingelber      |
-| Obie      | Jeanet       | Female |             3864073294 | Jeanet      | Jean33           |
-| Kat       | Tumility     | Female |             6465409716 | Tumility    | timTimq1         |
-| Farlee    | Flahy        | Male   |             4265010392 | 6909        | aTthe09@         |
-| Aubine    | Imason       | Female |             7633309884 | Imason      | THREEQ11         |
-| Mariana   | Allan        | Female |             4373188445 | 07510       | 08dfhhehsqwr     |
-| Mireielle | Mayell       | Female |             3244156226 | Mireielle   | !MirgoGo4        |
-| Dougie    | Gerold       | Male   |             8616692455 | 09975       | drentre          |
-| Ario      | Covet        | Male   |             7093060343 | 9988        | @fFSGfdouy       |
-| Marlin    | Jeaneau      | Male   |             9874622731 | Marlin56    | GOGTROM          |
-| Clarette  | Jolliff      | Female |             2117055594 | Clarette    | Clarbest$1       |
-| Normie    | Mangeon      | Male   |             2281464826 | 14806       | Dodomaboy4       |
-| Richart   | Redhouse     | Male   |             3429080003 | Richart     | Ric@rt$1         |
-| Anastasie | Amery        | Female |             1806063297 | 20000       | StorePassse2     |
-| Alexandr  | Crowcroft    | Female |             9232839377 | Alexandr    | Alex2023         |
-| Karlis    | Thornebarrow | Male   |             3197500170 | Karlis      | kgragopuraal     |
-| Brigitte  | Ealam        | Male   |             7987980157 | Brigitte    | 87hotnoy!        |
-| Mel       | Shotboulte   | Male   |             6006394285 | MelShotb    | Mel1996          |
-| Veradis   | Enns         | Female |             8988003918 | Veradis299  | Vera563r4f!      |
-| Kathleen  | Coughan      | Female |             9979606668 | Kathleen    | @letsgotr3       |
-| Prescott  | Todor        | Male   |             6032617498 | Prescott    | Afhuuytbf645!rbf |
-| Malvina   | Loney        | Male   |             7856458833 | Malvina     | mMaLvana12       |
-| Misti     | Lacelett     | Female |             3237873622 | Misti       | @dropecar1304!   |
-| Terry     | Robjents     | Female |             5132908585 | 33953       | 33953lIbaol      |
-| Adore     | Brash        | Female |             3325129405 | AdoreBrash  | Brash21          |
-| Scott     | Duckett      | Male   |             6438042530 | G38321      | @dortqueirs1     |
-| Hernando  | Cafferty     | Male   |             8796831119 | Hernando    | mixpassyea       |
-| Oralee    | Zecchi       | Male   |             8645260161 | 41509       | fromtree22       |
-| North     | MacShirie    | Male   |             1811238320 | 42000       | askmetyou4       |
-| Silvain   | Haquard      | Male   |             7127169250 | Haquard001  | Haqu809          |
-| Daffie    | Hoy          | Male   |             3617560871 | DaffieHoy   | Daffiee88        |
-| Hendrika  | Gonzalez     | Female |             4243990919 | Hendrika001 | HenDrek1         |
-| Swen      | Outram       | Male   |             9821203406 | Swen        | ewens123         |
-| Papageno  | Lambart      | Male   |             9177706783 | Papageno    | Congoman4        |
-| Winny     | Turbitt      | Male   |             1402440015 | Winny       | gGogoGo          |
-| Augustin  | Brookbank    | Male   |             3455729935 | Augustin    | AugUsT212        |
-| Eilis     | Colerick     | Female |             7398927694 | Eilis001    | Lettyellis04     |
-| Marleah   | Trammel      | Female |             7731332085 | 50340Rw     | 504letsgo!       |
-| Clary     | Woodham      | Female |             6193206584 | Woodham     | Ashbtren12       |
-| Forester  | McSharry     | Male   |             6524123846 | 66462       | QWLL1            |
-| Sharona   | McGillecole  | Female |             5871531665 | McGillecole | Mcgill875        |
-| Joshuah   | Fennessy     | Male   |             9408686181 | 77542Jos    | getITOR          |
-| Pip       | Dahmel       | Male   |             2898914415 | PipDahmel   | Pip!lEtatter     |
-| Lindi     | Hambrook     | Female |             7815086646 | 84815       | Secretscr1       |
-| Donny     | Ivanaev      | Male   |             8225729883 | Donny       | press112         |
-| Shari     | Drennan      | Male   |             6567168380 | 90311       | wetyddh2         |
-| Gibby     | Hussy        | Male   |             5409382652 | GibbyHu     | gGbiibbyyhuu     |
-| Edgardo   | Franzen      | Male   |             8519205140 | 93705       | Franzen01        |
-| Tersina   | Porkiss      | Female |             6418578523 | Tersina     | 123!Terinsa      |
-| Darda     | Moffet       | Male   |             6863400622 | 99130c      | hardtocrack      |
-+-----------+--------------+--------+------------------------+-------------+------------------+
+mysql>  select FirstName, LastName,Gender,Birthday, Social_Security_Number,Username,Password from  residentowner ;
++-----------+--------------+--------+------------+------------------------+-------------+------------------+
+| FirstName | LastName     | Gender | Birthday   | Social_Security_Number | Username    | Password         |
++-----------+--------------+--------+------------+------------------------+-------------+------------------+
+| Ermina    | Hurich       | Female | 1995-01-27 |             1981953123 | Ermina      | JAcket3          |
+| Dorie     | Poleye       | Female | 2023-05-16 |             9794178130 | 1025        | 1025J            |
+| Erin      | Isaacson     | Male   | 2022-12-23 |             2693682664 | Isaacson    | grabI2!          |
+| Penny     | Vezey        | Male   | 2023-10-13 |             6906923418 | 1265        | GREEWQR          |
+| Graehme   | Maylard      | Male   | 2023-07-26 |             8381663365 | Graehme     | treq24@          |
+| Mike      | Gobeaux      | Male   | 2023-11-01 |             4501670706 | Gobeaux     | g063@            |
+| Patton    | Kobierski    | Male   | 2023-01-28 |             9973146740 | 1775        | #trellu9         |
+| Rey       | Anglim       | Male   | 2023-01-20 |             3736136599 | 2599        | trooper1         |
+| Fran      | Loads        | Male   | 2023-02-04 |             9255972104 | 2606        | ffACCJT*3        |
+| Gerrilee  | Tate         | Male   | 2023-07-12 |             2542511228 | Gerrilee2   | hGerr11          |
+| Kerby     | Mussington   | Female | 2023-08-16 |             9819588828 | Mussington1 | Letsgrew1        |
+| Millard   | Stiegers     | Male   | 1992-02-13 |             1914083977 | Stiegers    | Stieg48          |
+| Felicia   | Beveredge    | Male   | 2023-09-25 |             1894090074 | Beveredge   | ieaTre1          |
+| Rodolph   | Glidden      | Male   | 2023-02-10 |             4441789229 | RodolphGl   | Rodo1            |
+| Ingelbert | Tyrone       | Male   | 2023-07-28 |             4959266342 | Ingelbert   | artingelber      |
+| Obie      | Jeanet       | Female | 2023-03-24 |             3864073294 | Jeanet      | Jean33           |
+| Kat       | Tumility     | Female | 1983-12-12 |             6465409716 | Tumility    | timTimq1         |
+| Farlee    | Flahy        | Male   | 2022-12-25 |             4265010392 | 6909        | aTthe09@         |
+| Aubine    | Imason       | Female | 1990-01-19 |             7633309884 | Imason      | THREEQ11         |
+| Mariana   | Allan        | Female | 1993-01-20 |             4373188445 | 07510       | 08dfhhehsqwr     |
+| Mireielle | Mayell       | Female | 1983-11-27 |             3244156226 | Mireielle   | !MirgoGo4        |
+| Dougie    | Gerold       | Male   | 1993-02-11 |             8616692455 | 09975       | drentre          |
+| Ario      | Covet        | Male   | 2023-05-17 |             7093060343 | 9988        | @fFSGfdouy       |
+| Marlin    | Jeaneau      | Male   | 1993-07-03 |             9874622731 | Marlin56    | GOGTROM          |
+| Clarette  | Jolliff      | Female | 1987-01-06 |             2117055594 | Clarette    | Clarbest$1       |
+| Normie    | Mangeon      | Male   | 1979-02-07 |             2281464826 | 14806       | Dodomaboy4       |
+| Richart   | Redhouse     | Male   | 1990-12-02 |             3429080003 | Richart     | Ric@rt$1         |
+| Anastasie | Amery        | Female | 1993-01-28 |             1806063297 | 20000       | StorePassse2     |
+| Alexandr  | Crowcroft    | Female | 1995-11-14 |             9232839377 | Alexandr    | Alex2023         |
+| Karlis    | Thornebarrow | Male   | 1983-10-20 |             3197500170 | Karlis      | kgragopuraal     |
+| Brigitte  | Ealam        | Male   | 1993-11-23 |             7987980157 | Brigitte    | 87hotnoy!        |
+| Mel       | Shotboulte   | Male   | 1983-02-28 |             6006394285 | MelShotb    | Mel1996          |
+| Veradis   | Enns         | Female | 1979-10-13 |             8988003918 | Veradis299  | Vera563r4f!      |
+| Kathleen  | Coughan      | Female | 1983-12-24 |             9979606668 | Kathleen    | @letsgotr3       |
+| Prescott  | Todor        | Male   | 1972-04-04 |             6032617498 | Prescott    | Afhuuytbf645!rbf |
+| Malvina   | Loney        | Male   | 1995-10-24 |             7856458833 | Malvina     | mMaLvana12       |
+| Misti     | Lacelett     | Female | 1972-10-12 |             3237873622 | Misti       | @dropecar1304!   |
+| Terry     | Robjents     | Female | 1983-05-04 |             5132908585 | 33953       | 33953lIbaol      |
+| Adore     | Brash        | Female | 1990-07-31 |             3325129405 | AdoreBrash  | Brash21          |
+| Scott     | Duckett      | Male   | 1983-01-10 |             6438042530 | G38321      | @dortqueirs1     |
+| Hernando  | Cafferty     | Male   | 1993-06-17 |             8796831119 | Hernando    | mixpassyea       |
+| Oralee    | Zecchi       | Male   | 1995-06-29 |             8645260161 | 41509       | fromtree22       |
+| North     | MacShirie    | Male   | 1995-09-13 |             1811238320 | 42000       | askmetyou4       |
+| Silvain   | Haquard      | Male   | 1996-12-19 |             7127169250 | Haquard001  | Haqu809          |
+| Daffie    | Hoy          | Male   | 1990-05-11 |             3617560871 | DaffieHoy   | Daffiee88        |
+| Hendrika  | Gonzalez     | Female | 1987-08-07 |             4243990919 | Hendrika001 | HenDrek1         |
+| Swen      | Outram       | Male   | 1972-12-01 |             9821203406 | Swen        | ewens123         |
+| Papageno  | Lambart      | Male   | 1983-03-10 |             9177706783 | Papageno    | Congoman4        |
+| Winny     | Turbitt      | Male   | 1990-03-25 |             1402440015 | Winny       | gGogoGo          |
+| Augustin  | Brookbank    | Male   | 1986-10-10 |             3455729935 | Augustin    | AugUsT212        |
+| Eilis     | Colerick     | Female | 1972-10-06 |             7398927694 | Eilis001    | Lettyellis04     |
+| Marleah   | Trammel      | Female | 1993-01-08 |             7731332085 | 50340Rw     | 504letsgo!       |
+| Clary     | Woodham      | Female | 1990-07-20 |             6193206584 | Woodham     | Ashbtren12       |
+| Forester  | McSharry     | Male   | 1995-05-15 |             6524123846 | 66462       | QWLL1            |
+| Sharona   | McGillecole  | Female | 1979-04-16 |             5871531665 | McGillecole | Mcgill875        |
+| Joshuah   | Fennessy     | Male   | 1995-12-22 |             9408686181 | 77542Jos    | getITOR          |
+| Pip       | Dahmel       | Male   | 1990-07-29 |             2898914415 | PipDahmel   | Pip!lEtatter     |
+| Lindi     | Hambrook     | Female | 1990-02-24 |             7815086646 | 84815       | Secretscr1       |
+| Donny     | Ivanaev      | Male   | 1992-04-06 |             8225729883 | Donny       | press112         |
+| Shari     | Drennan      | Male   | 1992-06-08 |             6567168380 | 90311       | wetyddh2         |
+| Gibby     | Hussy        | Male   | 1972-10-31 |             5409382652 | GibbyHu     | gGbiibbyyhuu     |
+| Edgardo   | Franzen      | Male   | 1983-10-28 |             8519205140 | 93705       | Franzen01        |
+| Tersina   | Porkiss      | Female | 1983-09-09 |             6418578523 | Tersina     | 123!Terinsa      |
+| Darda     | Moffet       | Male   | 1993-12-28 |             6863400622 | 99130c      | hardtocrack      |
++-----------+--------------+--------+------------+------------------------+-------------+------------------+
+64 rows in set (0.00 sec)
+
 64 rows in set (0.01 sec)
 
 
