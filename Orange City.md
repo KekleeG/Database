@@ -173,6 +173,15 @@ FOREIGN KEY  (ResId) REFERENCES residentowner(ResId)
 
 
 
+
+
+
+
+
+
+
+
+
 INSERT INTO residentowner VALUES
 (13492, 'Clarette',     'Jolliff',      2117055594, 1775332811,  'cjolliff1@gmpg.org',        '1987-01-06',     'Congo',       'Brazzaville', 'Female', 'Clarette',   'Clarbest$1'),
 (55740, 'Augustin',     'Brookbank',    3455729935, 1209378357,  'abrookbank2@gmail.com',     '1986-10-10',     'Tanzania',    'Dodoma',      'Male',   'Augustin',   'AugUsT212'),
@@ -183,7 +192,6 @@ INSERT INTO residentowner VALUES
 (07510, 'Mariana',      'Allan',        4373188445, 9261080924,  'mallan7@cal.com',           '1993-01-20',     'Nigeria',      'Abuja',       'Female','07510',      '08dfhhehsqwr'),
 (65748, 'Clary',        'Woodham',      6193206584, 1435157873,  'cwoodham8@gmail.org',       '1990-07-20',     'Gambia',       'Banjul',      'Female','Woodham',    'Ashbtren12'),
 (09975, 'Dougie',       'Gerold',       8616692455, 5101705307,  'dgerold9@yahoo.com',        '1993-02-11',     'South Africa', 'Cape Town',   'Male',  '09975',      'drentre');
-
 INSERT INTO residentowner VALUES
 (31690, 'Malvina',      'Loney',        7856458833, 7924932457,  'mloneya@gmail.com',         '1995-10-24',    'South Africa', 'Cape Town',  'Male',    'Malvina',    'mMaLvana12'),
 (04135, 'Millard',      'Stiegers',     1914083977, 8145567280,  'mstiegersb@gmail.com',      '1992-02-13',    'Monrovia',     'Liberia',    'Male',    'Stiegers',   'Stieg48'   ),
@@ -200,8 +208,6 @@ INSERT INTO residentowner VALUES
 (88239, 'Donny',        'Ivanaev',      8225729883, 5831640334,  'divanaevm@china.com',       '1992-04-06',    'Sierra Leone', 'Freetown',    'Male',   'Donny',      'press112'),
 (66462, 'Forester',     'McSharry',     6524123846, 2987218392,  'fmcsharryn@mot.com',        '1995-05-15',    'Sierra Leone', 'Freetown',    'Male',   '66462',      'QWLL1'),
 (12400, 'Marlin',       'Jeaneau',      9874622731, 8897693558,  'mjeao@naver.com',           '1993-07-03',    'Sierra Leone', 'Freetown',    'Male',   'Marlin56',   'GOGTROM');
-
-
 INSERT INTO residentowner VALUES
 (2800, 'Gerrilee',      'Tate',        2542511228, 8044527667,   'gtatep@wgmail.com',        '2023-07-12',     'Tanzania',     'Dodoma',      'Male',   'Gerrilee2',  'hGerr11'),
 (3041, 'Kerby',         'Mussington',  9819588828, 6244660986,   'kmngtonq@aol.com',         '2023-08-16',     'Gambia',       'Banjul',      'Female', 'Mussington1','Letsgrew1'),
@@ -222,6 +228,16 @@ INSERT INTO residentowner VALUES
 
 
 
+
+
+
+
+
+
+
+
+
+
 INSERT INTO address VALUES
 (98292, 38321, 'Scott',     'Duckett',        9028,   'Mits Street',      'Orange County'),
 (34953, 32014, 'Misti',     'Lacelett',       1034,   'Dennis Street',    'Orange County'),
@@ -230,9 +246,6 @@ INSERT INTO address VALUES
 (49583, 50746, 'Swen',      'Outram',         1035,   'Dennis Street',    'Orange County'),
 (49504, 21243, 'Karlis',    'Thornebarrow',   1831,   'Cascade Street',   'Orange County'),
 (12034, 55711, 'Winny',     'Turbitt',        9030,   'Mits Street',      'Orange County');
-
-
-
 INSERT INTO address VALUES
 (48347, 28646, 'Mel',       'Shotboulte', 1832,    'Cascade Street',   'Orange County'),
 (30594, 56979, 'Eilis',     'Colerick',   9031,    'Mits Street',      'Orange County'),
@@ -242,7 +255,6 @@ INSERT INTO address VALUES
 (15664, 31596, 'Prescott',  'Todor',      9033,    'Mits Street',      'Orange County'),
 (23546, 6635,  'Kat',       'Tumility',   9034,    'Mits Street',      'Orange County'),
 (96369, 83040, 'Pip',       'Dahmel',     1037,   'Dennis Street',     'Orange County');
-
 INSERT INTO address VALUES
   (78565,      97474,  'Tersina',    'Porkiss',        1834,    'Cascade Street',     'Orange County'),
   (97546,      29951,  'Veradis',    'Enns' ,          1835,    'Cascade Street',     'Orange County'),
@@ -256,7 +268,6 @@ INSERT INTO address VALUES
   (45353,     15123, 'Richart',      'Redhouse',    1837,      'Cascade Street',     'Orange County');
    INSERT INTO address VALUES
   (67654,     13492, 'Clarette',     'Jolliff',     9038,      'Mits Street',        'Orange County');
-
   INSERT INTO address VALUES
   (56544,     55740, 'Augustin',     'Brookbank',   1040,      'Dennis  Street' ,    'Orange County'),
   (11223,     44550, 'Silvain',      'Haquard',     1838,      'Cascade Street',     'Orange County'),
@@ -302,6 +313,18 @@ INSERT INTO address VALUES
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 INSERT INTO carassigned VALUES
 (2220, 38321 , 'Yes', 2019, 'Toyota', 'Camry',   'Black',   85, 'Sedan' ),
 (2221, 32014 , 'Yes', 2022, 'Dodge',  'Charger', 'Black',   93, 'Sedan'),
@@ -327,8 +350,6 @@ INSERT INTO carassigned VALUES
 (2340, 75405, 'No ', 0, '  ', '   ', '  ', 0, '  '),
 (2341, 93705, 'No ', 0, '  ', '   ', '  ', 0, '  '),
 (2342, 15123, 'Yes', 2019, 'Toyota', 'Camry', 'Black', 85, 'Sedan');
-
-
 INSERT INTO carassigned VALUES
 (2343,   13492 ,  'No' ,  0 , '  ' ,     '   ',      '  ', 0   ,    '  ' ),
 (2344,   55740 ,  'Yes', 2019,   'Toyota', 'Camry',      'Black',    85, 'Sedan' ),
@@ -339,8 +360,6 @@ INSERT INTO carassigned VALUES
 (2349,   07510 ,  'No' ,  0 , '  ' ,     '   ',      '  ', 0   ,    '  ' ),
 (2350,   65748 ,  'Yes', 2020,   'Dodge',  'Charger',    'Silver',   93, 'Sedan'),
 (2351,   09975 ,  'No' ,  0 , '  ' ,     '   ',      '  ', 0   ,    '  ' );
-
-
 INSERT INTO carassigned VALUES
 (2352, 31690, 'Yes',  2019,   'Toyota', 'Camry',      'Black',    85, 'Sedan' ),
 (2353, 04135,  'No',    0 , '  '      ,   '   ',    '  '     ,     0,    '  ' ),
@@ -380,6 +399,13 @@ INSERT INTO carassigned VALUES
 
 
 
+
+
+
+
+
+
+
 INSERT INTO Job VALUES
 (1000, 38321, 'Electrical Engineer', 9645436544,   'Madelon	Agget',         2648531196,   'magget0@yahoo.com'),
 (1002, 32014, 'School Teacher',      9645647643,   'Katharyn	Cutts',     	8457239241,  	'kcutts1@gmail.com'),
@@ -406,9 +432,6 @@ INSERT INTO Job VALUES
 (1021, 36928,  'Construction',        9568603472,   'Cosimo	Lacky',	        3561414930, 	 'clackyf@gmail.com' ),
 (1022, 75405,  'Salesman',            9569601643,   'Kaitlynn	Fancott',	    9444772317,	   'kfancottg@yahoo.com'),
 (1023, 93705,  'Nurse',               9561375098,   'Shae	Gillitt', 	      3432257198,    'sgilli@yahoo.com');
-
-
-
 INSERT INTO Job VALUES
 (1024, 15123,  'Nurse',               9563512645, 'Lilla	Mahon',         3609905230,	    'lmah@gmail.com' ),
 (1025, 13492,  'Automotive Engineer', 9567775544, 'Christa	Sleightholm',	3973420010,     'csleolme@aol.com'),
@@ -438,8 +461,6 @@ INSERT INTO Job VALUES
 (1066,88239,  'Truck Driver',        9561002030, 'James Stre',           3978293311,     'jamesstre@gmail.com'),
 (1067,66462,  'Nurse',                9567732930, 'Carlos Hii',           9563940394,     'Carloshii@yahoo.com'),
 (1068,12400,  'Nurse',                9567732930, 'Carlos Hii',           9563940394,     'Carloshii@yahoo.com');
-
-
 INSERT INTO Job VALUES
 (1069, 2800, 'General Manager',     9562165900, 'Cecile	Stapford',     	4073896495,	    'cstapford6@gmail.com');
 INSERT INTO Job VALUES
@@ -459,6 +480,18 @@ INSERT INTO Job VALUES
 (1082, 2599, 'Nurse',            9562674590, 'Micki	Matuszinski',	    3092150179,	    'mmaski7@yahoo.com'),
 (1083, 1464, 'Nurse',            9562674590, 'Micki	Matuszinski',	    3092150179,	    'mmaski7@yahoo.com'),
 (1084, 9988, 'Nurse',            9562674590, 'Micki	Matuszinski',	    3092150179,	    'mmaski7@yahoo.com');
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -534,6 +567,17 @@ INSERT INTO FrontOffice VALUES
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 INSERT INTO Payment VALUES
 (22, 38321,  1,   'Credit Card',    'Scott',     'Duckett',       1357924683579468,   '2026-01-10',   234,  1250.00),
 (23, 32014,  2,   'Debit Card',     'Misti',     'Lacelett',      5216484760008000,   '2025-01-15',   353,  1250.00),
@@ -545,11 +589,6 @@ INSERT INTO Payment VALUES
 (29, 28646 , 8,   'Credit Card',    'Mel',       'Shotboulte',    0978654321234567 ,  '2024-05-20',   345,  1250.00),
 (30, 56979,  9,   'Credit Card' ,   'Eilis',     'Colerick',      6543217890091287 ,  '2026-01-10',   222,  1250.00),
 (31, 90569 , 10,  'Credit Card',    'Gibby',     'Hussy',         3457891290457855 ,  '2024-05-12',   775,  1250.00);
-
-
-
-
-
 INSERT INTO Payment VALUES
 (32, 84815, 11, 'Debit Card',  'Lindi', 'Hambrook', 1468655489099075, '2028-12-12', 123, 1250.00);
 INSERT INTO Payment VALUES
@@ -589,10 +628,6 @@ INSERT INTO Payment VALUES
 (60, 42000, 39, 'Credit Card',  'North',        'MacShirie',   4445454546765634, '2026-01-09', 354, 1230.00);
 INSERT INTO Payment VALUES
 (61, 90311, 40, 'Credit Card',  'Shari',        'Drennan',     1235545645466909, '2024-12-12', 675, 800.00);
-
-
-
-
 INSERT INTO Payment VALUES
 (62, 24566, 41, 'Credit Card',  'Brigitte',     'Ealam',       8887655553432323, '2024-11-09', 200, 1230.00);
 INSERT INTO Payment VALUES
@@ -619,6 +654,12 @@ INSERT INTO Payment VALUES
 (83, 2599,  62, 'Debit Card' ,  'Rey',          'Anglim',      6633459686504509, '2026-01-10', 002, 800.00),
 (84, 1464,  63, 'Debit Card' ,  'Graehme',      'Maylard',     6336584456949584, '2026-01-10', 003, 800.00),
 (85, 9988,  64, 'Debit Card' ,  'Ario',         'Covet',       6633405948395855, '2026-01-10', 004, 1230.00);
+
+
+
+
+
+
 
 
 
@@ -666,9 +707,6 @@ INSERT INTO Sponsor VALUES
 (131, 07510,  'Meetz',	    'sgaber6@51.com', 9105011500),
 (132, 65748,  'Meetz',	    'sgaber6@51.com', 9105011500),
 (133, 09975,  'World Travel Visa',	'world.travel@visa.com', 4327860572);
-
-
-
 INSERT INTO Sponsor VALUES
 (134, 31690, 'World Travel Visa', 'world.travel@visa.com', 4327860572),
 (135, 04135, 'NSA', 'NSA@privacy.gov/visa', 4399778480),
