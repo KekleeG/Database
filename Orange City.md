@@ -4,7 +4,7 @@
 -- to help work-visa residents with their living where they will be given a
 -- house and a car. To receive and keep a vehicle, the resident must pay
 -- an extra $450 a month for the vehicle and Payment method will only be credit
--- or debit card. Resident must pay $800 a month for rent to Orange City Front
+-- or debit card. Resident must pay $800 a month for rent to Orange City Front 
 -- Office and payment method will only be credit or debit card. Data regarding
 -- resident will be tracked and kept secured for confidentiality such as SSN,
 -- Card information etc. Each resident will need to connect with a sponsor to
