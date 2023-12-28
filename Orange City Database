@@ -721,7 +721,7 @@ INSERT INTO Sponsor VALUES
 
 
 
-
+ 
 -- DISPLAY EVERY RESIDENTS PERSONAL INFORMATION ALONG WITH THEIR USERNAME AND PASSWORD
 mysql> select * from  residentowner ;
 +-------+-----------+--------------+------------------------+-------------+--------------------------+------------+--------------+--------------+--------+-------------+------------------+
